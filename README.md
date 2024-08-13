@@ -34,4 +34,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Using this project from GitHub
 
 This is a development github repository for Playscapes Project
-To install this project in your development machine, check out this [article](https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/) .
+
+To install this project in your development machine, check out this [Article](https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/) to get started
