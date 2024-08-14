@@ -66,7 +66,15 @@
     color: #40C0CB;
 }
 .step-1{
-    /* width: 25%; */
+    width: 20%;
+}
+#step-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#step-description{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .playsets{
     display: flex;
@@ -89,4 +97,51 @@
 }
 #good{
     color: #AAC438;
+}
+.premium{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.premium-description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+.premium-image{
+    width: 50%;
+}
+.easy-to-buy{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.easy-to-buy-image{
+    width: 50%;
+}
+.easy-to-buy-description{
+    width: 50%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.good-company{
+    display: flex;
+    justify-content: space-between;
+}
+.good-company-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    margin-right: auto;
+    margin-left: auto;
 }

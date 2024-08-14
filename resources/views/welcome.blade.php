@@ -96,7 +96,8 @@
                 <p>Playful images here</p>
             </div>
             <div class="mt-5">
-                <p class="text-6xl">Play is beautiful</p>
+                <p class="text-5xl">Play is</p>
+                <p class="text-5xl">beautiful</p>
 
             </div>
             <div class="hero-buttons mt-10">
@@ -114,24 +115,24 @@
         <p class="mt-2">It's easy to get the perfect CedarWorks playset for your family, and you never have to leave the house.</p>
         <div class="steps">
             <div class="step-1">
-                <h3>1. Choose It</h3>
+                <h3 id="step-title" class="text-3xl">1. Choose It</h3>
                 <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                <p>Choose, customize, or design online</p>
+                <p id="step-description">Choose, customize, or design online</p>
             </div>
             <div class="step-1">
-                <h3>2. Buy It</h3>
+                <h3 id="step-title" class="text-3xl">2. Buy It</h3>
                 <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                <p>Choose, customize, or design online</p>
+                <p id="step-description">Choose, customize, or design online</p>
             </div>
             <div class="step-1">
-                <h3>3. Get It</h3>
+                <h3 id="step-title" class="text-3xl">3. Get It</h3>
                 <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                <p>Choose, customize, or design online</p>
+                <p id="step-description">Choose, customize, or design online</p>
             </div>
             <div class="step-1">
-                <h3>Play!</h3>
+                <h3 id="step-title" class="text-3xl">Play!</h3>
                 <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                <p>Choose, customize, or design online</p>
+                <p id="step-description">Choose, customize, or design online</p>
             </div>
         </div>
     </section>
@@ -154,7 +155,64 @@
     <hr>
 
     <section class="premium-products mt-10 mb-10">
-        <h3 id="premium-products-title" class="uppercase text-center"><span id="premium">Premium Products</span> • <span id="easy">Easy to Buy</span> • <span id="good">Good company</span></h3>
+        <h3 id="premium-products-title" class="uppercase text-center"><span id="premium">Premium Products</span> • <span id="easy">Easy to Buy</span> • </h3>
+        <h3 id="premium-products-title" class="uppercase text-center"><span id="good">Good company</span> </h3>  
+
+        <div class="premium">
+
+            <div class="premium-description">
+                <img src="{{ asset('images/premium.svg') }}" alt="">
+
+                <h3 class="uppercase text-3xl">Premium Products</h3>
+                <h2>The highest quality materials, construction, and design </h2>
+                <ul>
+                    <li>
+                        Naturally splinter-free Northern White Cedar
+                    </li>
+                    <li>
+                        Unwavering attention to detail
+                    </li>
+                    <li>
+                        The most beautiful playsets you can buy
+                    </li>
+                </ul>
+                <a href="#">Learn more about our premium products</a>
+
+            </div>
+            <div class="premium-image">
+
+                <img style="height: 500px" src="{{ asset('images/premium-img.jpg') }}" alt="" srcset="">
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="easy-to-buy">
+
+            <div class="easy-to-buy-image">
+                <img style="height: 500px" src="{{ asset('images/easy-to-buy.jpg') }}" alt="">
+            </div>
+            <div class="easy-to-buy-description">
+                <img src="{{ asset('images/marketing-point-2.svg') }}" alt="">
+                <h3 class="uppercase text-3xl">easy to buy</h3>
+                <h2>No worries. No stress. The modern way to buy a playset.</h2>
+
+            </div>
+
+        </div>
+        <div class="good-company">
+            <div class="good-company-description">
+                <img src="{{ asset('images/marketing-point-3.svg') }}" alt="" srcset="">
+                <h3 class="uppercase text-3xl">good company</h3>
+                <h2>Family-owned, looking out for kids and the environment</h2>
+
+            </div>
+            <div class="good-company-image">
+                <img style="height: 500px" src="{{ asset('images/goodcompany.jpg') }}" alt="">
+
+            </div>
+
+        </div>
     </section>
 
     <script>
