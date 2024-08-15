@@ -90,18 +90,41 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.playsets-section{
+    padding: 30px 0px;
+}
 .playsets{
     display: flex;
-    width: 60%;
+    width: 70%;
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 15px;
+    margin-top: 35px;
+    /* padding-top: 10px;
+    margin-bottom: 35px;
+    padding-bottom: 10px; */
+}
+#playsets-img{
+    width: 260px;
+}
+.playsets-description{
+    width: 50%;
+    /* margin-right: 20px; */
+}
+.playsets-image{
+    width: 50%;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #premium-products-title{
     color: #D7D7D7;
     font-size: 48px;
+}
+.premium-products-mobile{
+    display: none;
 }
 #premium{
     color: #61BEBE;
@@ -139,11 +162,11 @@
 .easy-to-buy-description{
     width: 50%;
     display: flex;
-    
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .good-company{
@@ -169,7 +192,7 @@ footer{
     margin-top: 150px;
     padding-top: 30px;
     padding-bottom: 150px;
-   
+
 }
 
 .footer-links p {
@@ -346,5 +369,57 @@ footer{
     .steps-to-play-desktop{
         display: none;
     }
+    .playsets-section{
+        display: none;
+    }
+    .premium-products{
+        display: none;
+    }
+    .premium-products-mobile{
+        display: block;
+    }
   }
+
+
+/* From AI Two */
+.carousel-premium {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 600px; /* Adjust as needed */
+}
+
+.carousel-slide-premium {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.carousel-slide-premium.active {
+    display: flex;
+    opacity: 1;
+}
+
+.carousel-dots-mobile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dot-mobile {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot-mobile.active {
+    background-color: #40C0CB;
+}
+
+
 

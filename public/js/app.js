@@ -28,3 +28,33 @@ function currentSlide(index) {
 
 // Initialize the carousel by showing the first slide
 showSlide(0);
+
+// From AI Two
+document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll(".carousel-slide-premium");
+    const dots = document.querySelectorAll(".dot-mobile");
+
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.remove("active");
+            dots[i].classList.remove("active");
+        });
+        slides[index].classList.add("active");
+        dots[index].classList.add("active");
+    }
+
+    dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+            currentSlide = index;
+            showSlide(currentSlide);
+        });
+    });
+
+    // Initialize the first slide as active
+    showSlide(currentSlide);
+});
+
+
+
