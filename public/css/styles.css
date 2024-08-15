@@ -64,32 +64,32 @@
     cursor: pointer;
 
 }
-/* .steps-to-play{
+.steps-to-play-desktop{
     margin-top: 50px;
     padding-top: 40px;
     margin-bottom: 50px;
     padding-bottom: 40px;
     text-align: center;
 }
-.steps{
+.steps-desktop{
     display: flex;
     margin-top: 30px;
     justify-content: space-around;
 }
-#steps-title{
+#steps-title-desktop{
     color: #40C0CB;
 }
-.step-1{
+.step-1-desktop{
     width: 20%;
 }
-#step-title{
+#step-title-desktop{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#step-description{
+#step-description-desktop{
     margin-top: 30px;
     margin-bottom: 30px;
-} */
+}
 .playsets{
     display: flex;
     width: 60%;
@@ -322,8 +322,17 @@ footer{
 
 /* End from AI */
 
+/* For desktop version */
+/* @media only screen and (min-width: 768px) {
+.steps-to-play-desktop{
+    display: none;
+
+}
+} */
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+
     .hero{
         flex-direction: column;
     }
@@ -333,6 +342,9 @@ footer{
     }
     #hero-button2{
         margin-top: 10px;
+    }
+    .steps-to-play-desktop{
+        display: none;
     }
   }
 

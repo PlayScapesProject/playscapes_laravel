@@ -135,38 +135,38 @@
         </div>
 
     </section>
-    {{-- <section class="steps-to-play">
+    <section class="steps-to-play-desktop">
         <h2 class="uppercase text-4xl" id="steps-title">3 Steps to play </h2>
         <p class="mt-2">It's easy to get the perfect CedarWorks playset for your family, and you never have to leave
             the house.</p>
-        <div class="steps">
-            <div class="step-1">
-                <h3 id="step-title" class="text-3xl">1. Choose It</h3>
+        <div class="steps-desktop">
+            <div class="step-1-desktop">
+                <h3 id="step-title-desktop" class="text-3xl">1. Choose It</h3>
                 <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                <p id="step-description">Choose, customize, or design online</p>
+                <p id="step-description-desktop">Choose, customize, or design online</p>
             </div>
-            <div class="step-1">
-                <h3 id="step-title" class="text-3xl">2. Buy It</h3>
+            <div class="step-1-desktop">
+                <h3 id="step-title-desktop" class="text-3xl">2. Buy It</h3>
                 <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                <p id="step-description">Choose, customize, or design online</p>
+                <p id="step-description-desktop">Choose, customize, or design online</p>
             </div>
-            <div class="step-1">
-                <h3 id="step-title" class="text-3xl">3. Get It</h3>
+            <div class="step-1-desktop">
+                <h3 id="step-title-desktop" class="text-3xl">3. Get It</h3>
                 <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                <p id="step-description">Choose, customize, or design online</p>
+                <p id="step-description-desktop">Choose, customize, or design online</p>
             </div>
-            <div class="step-1">
-                <h3 id="step-title" class="text-3xl">Play!</h3>
+            <div class="step-1-desktop">
+                <h3 id="step-title-desktop" class="text-3xl">Play!</h3>
                 <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                <p id="step-description">Choose, customize, or design online</p>
+                <p id="step-description-desktop">Choose, customize, or design online</p>
             </div>
         </div>
-    </section> --}}
-    <section class="steps-to-play">
+    </section>
+    <section class="steps-to-play md:hidden">
         <h2 class="uppercase text-4xl" id="steps-title">3 Steps to play</h2>
         <p class="mt-2">It's easy to get the perfect CedarWorks playset for your family, and you never have to leave
             the house.</p>
-        <div class="steps-carousel">
+        <div class="steps-carousel ">
             <div class="carousel-container">
                 <div class="step">
                     <h3 id="step-title" class="text-3xl">1. Choose It</h3>
