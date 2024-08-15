@@ -21,7 +21,7 @@
     <!-- Navigation Bar -->
     <nav class="flex items-center justify-between p-4 bg-white shadow-md">
         <div class="text-lg font-semibold">CedarWorks</div>
-        <div class="flex" >
+        <div class="flex">
             <div class="space-x-4 hidden md:flex mr-3">
                 <a href="#" class="text-gray-700 uppercase">Outdoor</a>
                 <a href="#" class="text-gray-700 uppercase">Indoor</a>
@@ -112,7 +112,8 @@
     </section>
     <section class="steps-to-play">
         <h2 class="uppercase text-4xl" id="steps-title">3 Steps to play </h2>
-        <p class="mt-2">It's easy to get the perfect CedarWorks playset for your family, and you never have to leave the house.</p>
+        <p class="mt-2">It's easy to get the perfect CedarWorks playset for your family, and you never have to leave
+            the house.</p>
         <div class="steps">
             <div class="step-1">
                 <h3 id="step-title" class="text-3xl">1. Choose It</h3>
@@ -143,7 +144,8 @@
         <h3 class="text-4xl">Cedaworks Playsets</h3>
         <div class="playsets">
             <div class="mr-10">
-                From outdoor swing sets and playsets to indoor playsets, we design and manufacture the most beautiful, environmentally responsible products in the world for active play.
+                From outdoor swing sets and playsets to indoor playsets, we design and manufacture the most beautiful,
+                environmentally responsible products in the world for active play.
             </div>
             <div>
                 <img src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
@@ -155,8 +157,10 @@
     <hr>
 
     <section class="premium-products mt-10 mb-10">
-        <h3 id="premium-products-title" class="uppercase text-center"><span id="premium">Premium Products</span> • <span id="easy">Easy to Buy</span> • </h3>
-        <h3 id="premium-products-title" class="uppercase text-center"><span id="good">Good company</span> </h3>  
+        <h3 id="premium-products-title" class="uppercase text-center"><span id="premium">Premium Products</span> •
+            <span id="easy">Easy to Buy</span> •
+        </h3>
+        <h3 id="premium-products-title" class="uppercase text-center"><span id="good">Good company</span> </h3>
 
         <div class="premium">
 
@@ -181,7 +185,8 @@
             </div>
             <div class="premium-image">
 
-                <img style="height: 500px" src="{{ asset('images/premium-img.jpg') }}" alt="" srcset="">
+                <img style="height: 500px" src="{{ asset('images/premium-img.jpg') }}" alt=""
+                    srcset="">
 
             </div>
 
@@ -212,6 +217,99 @@
 
             </div>
 
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <div>
+                <p class="text-2xl">
+                    CedarWorks
+                </p>
+                <br>
+                <p>
+                    400 Nairobi Kenya
+                </p>
+                <p>
+                    PO BOX 400
+                </p>
+                <p>
+                    Nairobi Kenya
+                </p>
+                <br>
+                <p>
+                    (254) 79200 9556
+                </p>
+                <p>
+                    (254) 79200 9556
+                </p>
+                <br>
+                <p>
+                    8:00 a.m - 4:00pm(EAT) Mon-Fri
+                </p>
+                <p>
+                    9:00 a.m - 5:00pm(EAT) Sat-Sun
+                </p>
+            </div>
+            <div>
+                <p class="text-xl uppercase">Get Started</p>
+                <br>
+                <p>Find My Playset</p>
+                <p>Request Catalog</p>
+                <p>Contact Us</p>
+                <p>Wishlist</p>
+                <p>Product FAQ</p>
+                <p>Blog</p>
+                <p>Financing</p>
+            </div>
+            <div>
+                <p class="text-xl uppercase">Outdooor</p>
+                <br>
+                <p>Rustic</p>
+                <p>Classic</p>
+                <p>Architectural</p>
+                <p>Toys & Furniture</p>
+                <p>Gift Certificates</p>
+
+            </div>
+            <div>
+                <p class="text-xl uppercase">Indoor</p>
+                <br>
+                <p>Playsets</p>
+                <p>Toys & Furniture</p>
+            </div>
+            <div>
+                <p class="text-xl uppercase">Other Links</p>
+                <br>
+                <p>Accessories</p>
+                <p>Service & Support</p>
+                <p>Press & Media</p>
+                <p>Design Your Own</p>
+                <p>Navigator</p>
+                <p>Careers</p>
+                <p>Waranty</p>
+                <p>My Account</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-search-bar">
+            <p class="uppercase text-center text-3xl">product search</p>
+            <div class="search-box">
+                <input type="text">
+                <div class="divider"></div>
+                <button id="clear">CLEAR</button>
+            </div>
+        </div>
+    </footer>
+    <section class="copyright">
+        <div class="copyright-links">
+            <p>Copyright &copy; PlayScapes 2024 </p>
+            <p>Privacy Policy</p>
+            <p>Facebook</p>
+            <p>Instagram</p>
+        </div>
+        <div>
+            &nbsp; 
         </div>
     </section>
 
