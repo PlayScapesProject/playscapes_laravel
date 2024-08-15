@@ -20,7 +20,7 @@
 <body class="">
     <!-- Navigation Bar -->
     <nav class="flex items-center justify-between p-4 bg-white shadow-md">
-        <div class="text-lg font-semibold">CedarWorks</div>
+        <div class="text-lg font-semibold">Playscapes</div>
         <div class="flex">
             <div class="space-x-4 hidden md:flex mr-3">
                 <a href="#" class="text-gray-700 uppercase">Outdoor</a>
@@ -72,12 +72,25 @@
         </div>
 
         <div class="cart-wishlist">
-            {{-- <div> --}}
-            <p>Cart</p>
-            {{-- </div> --}}
-            {{-- <div> --}}
-            <p>Wishlist</p>
-            {{-- </div> --}}
+            <div style="margin-right: 10px">
+                <svg height="20" width="20" stroke-width="1" color="#61bebe" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" fill="currentColor"
+                    class="icon icon-tabler icons-tabler-filled icon-tabler-shopping-cart">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                        d="M6 2a1 1 0 0 1 .993 .883l.007 .117v1.068l13.071 .935a1 1 0 0 1 .929 1.024l-.01 .114l-1 7a1 1 0 0 1 -.877 .853l-.113 .006h-12v2h10a3 3 0 1 1 -2.995 3.176l-.005 -.176l.005 -.176c.017 -.288 .074 -.564 .166 -.824h-5.342a3 3 0 1 1 -5.824 1.176l-.005 -.176l.005 -.176a3.002 3.002 0 0 1 1.995 -2.654v-12.17h-1a1 1 0 0 1 -.993 -.883l-.007 -.117a1 1 0 0 1 .883 -.993l.117 -.007h2zm0 16a1 1 0 1 0 0 2a1 1 0 0 0 0 -2zm11 0a1 1 0 1 0 0 2a1 1 0 0 0 0 -2z">
+                    </path>
+                </svg>
+
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" width="19" height="19" stroke-width="1.2" stroke="red">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+                </svg>
+            </div>
+
         </div>
 
     </div>
@@ -91,9 +104,9 @@
                 src="https://assets.telegraphindia.com/telegraph/2022/Dec/1670380679_new-project-2022-12-07t080748-004.jpg"
                 alt="Playing Children">
         </div>
-        <div class="hero-description ">
-            <div>
-                <p>Playful images here</p>
+        <div class="hero-description">
+            <div id="playful-img">
+                <img style="width: 160px" src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
             </div>
             <div class="mt-5">
                 <p class="text-5xl">Play is</p>
@@ -101,16 +114,28 @@
 
             </div>
             <div class="hero-buttons mt-10">
-                <a href="#" id="hero-button1">Outdoor</a>
-                <a href="#" id="hero-button2">Indoor</a>
+                <button id="hero-button1">Outdoor</button>
+                <button id="hero-button2">Indoor</button>
             </div>
-            <div class="mt-10 pt-4">
-                <p class="uppercase">&#128269; Find my playset</p>
+            <div class="mt-10 pt-4 find-my-playlist">
+                <div style="margin-right: 3px">
+                    <svg width="26" height="26" stroke-width="1.0" color="#388888"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                        <path d="M21 21l-6 -6"></path>
+                    </svg>
+                </div>
+                <div>
+                    <p class="uppercase text-2xl">Find my playset</p>
+                </div>
             </div>
         </div>
 
     </section>
-    <section class="steps-to-play">
+    {{-- <section class="steps-to-play">
         <h2 class="uppercase text-4xl" id="steps-title">3 Steps to play </h2>
         <p class="mt-2">It's easy to get the perfect CedarWorks playset for your family, and you never have to leave
             the house.</p>
@@ -136,7 +161,43 @@
                 <p id="step-description">Choose, customize, or design online</p>
             </div>
         </div>
+    </section> --}}
+    <section class="steps-to-play">
+        <h2 class="uppercase text-4xl" id="steps-title">3 Steps to play</h2>
+        <p class="mt-2">It's easy to get the perfect CedarWorks playset for your family, and you never have to leave
+            the house.</p>
+        <div class="steps-carousel">
+            <div class="carousel-container">
+                <div class="step">
+                    <h3 id="step-title" class="text-3xl">1. Choose It</h3>
+                    <img src="{{ asset('images/choose.png') }}" alt="Choose it">
+                    <p id="step-description">Choose, customize, or design online</p>
+                </div>
+                <div class="step">
+                    <h3 id="step-title" class="text-3xl">2. Buy It</h3>
+                    <img src="{{ asset('images/choose.png') }}" alt="Choose it">
+                    <p id="step-description">Choose, customize, or design online</p>
+                </div>
+                <div class="step">
+                    <h3 id="step-title" class="text-3xl">3. Get It</h3>
+                    <img src="{{ asset('images/choose.png') }}" alt="Choose it">
+                    <p id="step-description">Choose, customize, or design online</p>
+                </div>
+                <div class="step">
+                    <h3 id="step-title" class="text-3xl">Play!</h3>
+                    <img src="{{ asset('images/choose.png') }}" alt="Choose it">
+                    <p id="step-description">Choose, customize, or design online</p>
+                </div>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
     </section>
+    
 
     <hr>
 
@@ -224,7 +285,7 @@
         <div class="footer-links">
             <div>
                 <p class="text-2xl">
-                    CedarWorks
+                    Playscapes
                 </p>
                 <br>
                 <p>
@@ -295,7 +356,7 @@
         <div class="footer-search-bar">
             <p class="uppercase text-center text-3xl">product search</p>
             <div class="search-box">
-                <input type="text">
+                <input style="outline:none" type="text">
                 <div class="divider"></div>
                 <button id="clear">CLEAR</button>
             </div>
@@ -309,7 +370,7 @@
             <p>Instagram</p>
         </div>
         <div>
-            &nbsp; 
+            &nbsp;
         </div>
     </section>
 
@@ -326,6 +387,8 @@
             menuOverlay.classList.toggle('-translate-x-full');
         });
     </script>
+
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
 </html>

@@ -25,20 +25,27 @@
 .hero-description{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
 }
+#playful-img{
+    margin-right: auto;
+    margin-left: auto;
+}
 .hero-buttons{
     /* margin: 10px 0px; */
     /* padding-top: 10px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 #hero-button1{
     padding: 5px 19px;
     border: 2px solid #388888;
-    border-radius: 15px;
+    border-radius: 20px;
     text-transform: uppercase;
     margin-right: 10px;
     color: #388888;
@@ -46,11 +53,18 @@
 #hero-button2{
     padding: 5px 19px;
     border: 2px solid #388888;
-    border-radius: 15px;
+    border-radius: 20px;
     text-transform: uppercase;
     color: #388888;
 }
-.steps-to-play{
+.find-my-playlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+/* .steps-to-play{
     margin-top: 50px;
     padding-top: 40px;
     margin-bottom: 50px;
@@ -75,7 +89,7 @@
 #step-description{
     margin-top: 30px;
     margin-bottom: 30px;
-}
+} */
 .playsets{
     display: flex;
     width: 60%;
@@ -190,6 +204,7 @@ footer{
     width: 80%;
 }
 
+
 /* .search-box input[type="text"]::placeholder {
     color: white;
     opacity: 0.7;
@@ -230,3 +245,94 @@ footer{
 .copyright-links p{
     margin-right: 10px;
 }
+
+/* From AI */
+
+.steps-to-play {
+    margin-top: 50px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.steps-carousel {
+    margin-top: 30px;
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.step {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+    box-sizing: border-box;
+}
+
+#steps-title {
+    color: #40C0CB;
+}
+
+#step-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#step-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Dots */
+.carousel-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-dots .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.carousel-dots .dot.active {
+    background-color: #40C0CB;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .steps {
+        display: none;
+    }
+    .carousel-container {
+        display: flex;
+    }
+}
+
+
+/* End from AI */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .hero{
+        flex-direction: column;
+    }
+    .hero-description{
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    #hero-button2{
+        margin-top: 10px;
+    }
+  }
+
