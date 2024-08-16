@@ -226,7 +226,7 @@
         <div class="premium">
 
             <div class="premium-description">
-                <img src="{{ asset('images/premium.svg') }}" alt="">
+                <img style="width: 80px" src="{{ asset('images/premium.svg') }}" alt="">
 
                 <h3 class="uppercase text-3xl">Premium Products</h3>
                 <h2>The highest quality materials, construction, and design </h2>
@@ -259,7 +259,7 @@
                 <img style="height: 500px" src="{{ asset('images/easy-to-buy.jpg') }}" alt="">
             </div>
             <div class="easy-to-buy-description">
-                <img src="{{ asset('images/marketing-point-2.svg') }}" alt="">
+                <img style="width: 80px" src="{{ asset('images/marketing-point-2.svg') }}" alt="">
                 <h3 class="uppercase text-3xl">easy to buy</h3>
                 <h2>No worries. No stress. The modern way to buy a playset.</h2>
 
@@ -268,7 +268,7 @@
         </div>
         <div class="good-company">
             <div class="good-company-description">
-                <img src="{{ asset('images/marketing-point-3.svg') }}" alt="" srcset="">
+                <img style="width: 80px" src="{{ asset('images/marketing-point-3.svg') }}" alt="" srcset="">
                 <h3 class="uppercase text-3xl">good company</h3>
                 <h2>Family-owned, looking out for kids and the environment</h2>
 
@@ -283,49 +283,57 @@
 
     {{-- premium-products-mobile mt-10 mb-10 --}}
     <section class="premium-products-mobile mt-10 mb-10">
-        <h3 id="premium-products-title-mobile" class="uppercase text-center"><span id="premium-mobile">Premium Products</span> •
-            <span id="easy-mobile">Easy to Buy</span> •
-        </h3>
-        <h3 id="premium-products-title-mobile" class="uppercase text-center"><span id="good-mobile">Good company</span></h3>
-
+        <h3>Why Cedaworks?</h3>
         <div class="carousel-premium">
-            <div class="carousel-slide-premium premium">
+            <div class="carousel-slide-premium premium-mobile">
                 <div class="premium-description-mobile">
-                    <img src="{{ asset('images/premium.svg') }}" alt="">
+                    <img style="width: 80px" src="{{ asset('images/premium.svg') }}" alt="">
                     <h3 class="uppercase text-3xl">Premium Products</h3>
                     <h2>The highest quality materials, construction, and design</h2>
-                    <ul>
+                    <ul >
                         <li>Naturally splinter-free Northern White Cedar</li>
                         <li>Unwavering attention to detail</li>
                         <li>The most beautiful playsets you can buy</li>
                     </ul>
                     <a href="#">Learn more about our premium products</a>
                 </div>
-                <div class="premium-image-mobile">
+                {{-- <div class="premium-image-mobile">
                     <img style="height: 500px" src="{{ asset('images/premium-img.jpg') }}" alt="">
-                </div>
+                </div> --}}
             </div>
 
             <div class="carousel-slide-premium easy-to-buy-mobile">
-                <div class="easy-to-buy-image-premium">
+                {{-- <div class="easy-to-buy-image-premium">
                     <img style="height: 500px" src="{{ asset('images/easy-to-buy.jpg') }}" alt="">
-                </div>
+                </div> --}}
                 <div class="easy-to-buy-description-premium">
-                    <img src="{{ asset('images/marketing-point-2.svg') }}" alt="">
+                    <img style="width: 80px" src="{{ asset('images/marketing-point-2.svg') }}" alt="">
                     <h3 class="uppercase text-3xl">easy to buy</h3>
                     <h2>No worries. No stress. The modern way to buy a playset.</h2>
+                    <ul >
+                        <li>Naturally splinter-free Northern White Cedar</li>
+                        <li>Unwavering attention to detail</li>
+                        <li>The most beautiful playsets you can buy</li>
+                    </ul>
+                    <a href="#">Learn more about our premium products</a>
                 </div>
             </div>
 
             <div class="carousel-slide-premium good-company-mobile">
-                <div class="good-company-description">
-                    <img src="{{ asset('images/marketing-point-3.svg') }}" alt="">
+                <div class="good-company-description-mobile">
+                    <img style="width: 80px" src="{{ asset('images/marketing-point-3.svg') }}" alt="">
                     <h3 class="uppercase text-3xl">good company</h3>
                     <h2>Family-owned, looking out for kids and the environment</h2>
+                    <ul >
+                        <li>Naturally splinter-free Northern White Cedar</li>
+                        <li>Unwavering attention to detail</li>
+                        <li>The most beautiful playsets you can buy</li>
+                    </ul>
+                    <a href="#">Learn more about our premium products</a>
                 </div>
-                <div class="good-company-image-premium">
+                {{-- <div class="good-company-image-premium">
                     <img style="height: 500px" src="{{ asset('images/goodcompany.jpg') }}" alt="">
-                </div>
+                </div> --}}
             </div>
         </div>
 

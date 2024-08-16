@@ -35,13 +35,7 @@
     margin-right: auto;
     margin-left: auto;
 }
-.hero-buttons{
-    /* margin: 10px 0px; */
-    /* padding-top: 10px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-}
+
 #hero-button1{
     padding: 5px 19px;
     border: 2px solid #388888;
@@ -100,16 +94,12 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 35px;
-    /* padding-top: 10px;
-    margin-bottom: 35px;
-    padding-bottom: 10px; */
 }
 #playsets-img{
     width: 260px;
 }
 .playsets-description{
     width: 50%;
-    /* margin-right: 20px; */
 }
 .playsets-image{
     width: 50%;
@@ -151,6 +141,23 @@
 .premium-image{
     width: 50%;
 }
+/* .premium-mobile{
+
+} */
+.premium-description-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.premium-products-mobile{
+    text-align: center;
+}
+.premium-products-mobile ul{
+    text-align: left;
+
+}
+
 .easy-to-buy{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -169,6 +176,13 @@
 
 }
 
+.easy-to-buy-description-premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .good-company{
     display: flex;
     justify-content: space-between;
@@ -178,9 +192,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 50%; */
     margin-right: auto;
     margin-left: auto;
+}
+.good-company-description-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 footer{
     background-color: #388888;
@@ -228,16 +247,10 @@ footer{
 }
 
 
-/* .search-box input[type="text"]::placeholder {
-    color: white;
-    opacity: 0.7;
-} */
-
 .search-box button {
     background-color: transparent;
     border: none;
     color: white;
-    /* padding: 10px; */
     cursor: pointer;
     font-size: 16px;
 }
@@ -247,9 +260,9 @@ footer{
 }
 .divider{
     width: 1px;
-    height: 40px; /* Adjust the height as needed */
+    height: 40px; 
     background-color: white;
-    margin: 0 10px; /* Adjust the spacing as needed */
+    margin: 0 10px; 
 }
 #clear{
     text-align: center;
@@ -269,7 +282,6 @@ footer{
     margin-right: 10px;
 }
 
-/* From AI */
 
 .steps-to-play {
     margin-top: 50px;
@@ -332,61 +344,11 @@ footer{
     background-color: #40C0CB;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .steps {
-        display: none;
-    }
-    .carousel-container {
-        display: flex;
-    }
-}
-
-
-/* End from AI */
-
-/* For desktop version */
-/* @media only screen and (min-width: 768px) {
-.steps-to-play-desktop{
-    display: none;
-
-}
-} */
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-
-    .hero{
-        flex-direction: column;
-    }
-    .hero-description{
-        margin-top: 10px;
-        padding-top: 10px;
-    }
-    #hero-button2{
-        margin-top: 10px;
-    }
-    .steps-to-play-desktop{
-        display: none;
-    }
-    .playsets-section{
-        display: none;
-    }
-    .premium-products{
-        display: none;
-    }
-    .premium-products-mobile{
-        display: block;
-    }
-  }
-
-
-/* From AI Two */
 .carousel-premium {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 600px; /* Adjust as needed */
+    height: 600px; 
 }
 
 .carousel-slide-premium {
@@ -423,3 +385,47 @@ footer{
 
 
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .steps {
+        display: none;
+    }
+    .carousel-container {
+        display: flex;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .hero{
+        flex-direction: column;
+    }
+    .hero-description{
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    #hero-button2{
+        margin-top: 10px;
+    }
+    .steps-to-play-desktop{
+        display: none;
+    }
+    .playsets-section{
+        display: none;
+    }
+    .premium-products{
+        display: none;
+    }
+    .premium-products-mobile{
+        display: block;
+    }
+    .footer-links{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
