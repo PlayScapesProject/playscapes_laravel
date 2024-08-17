@@ -58,6 +58,10 @@
     cursor: pointer;
 
 }
+.custom-container{
+    margin-right: 35px;
+    margin-left: 35px;
+}
 .steps-to-play-desktop{
     margin-top: 50px;
     padding-top: 40px;
@@ -95,11 +99,20 @@
     margin-left: auto;
     margin-top: 35px;
 }
+#redirect-link {
+    color: #86b3b2;
+
+}
+#premium-link{
+    color: #86b3b2;
+    /* margin-top: 8px; */
+}
 #playsets-img{
     width: 260px;
 }
 .playsets-description{
     width: 50%;
+    font-size: 18px;
 }
 .playsets-image{
     width: 50%;
@@ -126,9 +139,13 @@
     color: #AAC438;
 }
 .premium{
-    display: flex;
+    /* display: flex;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .premium-description{
     width: 50%;
@@ -137,10 +154,15 @@
     justify-content: center;
     align-items: center;
     text-align: start;
+
 }
-.premium-image{
+.premium-description h3{
+    color: #357f7e;
+    font-weight: bold;
+}
+/* .premium-image{
     width: 50%;
-}
+} */
 /* .premium-mobile{
 
 } */
@@ -153,15 +175,23 @@
 .premium-products-mobile{
     text-align: center;
 }
+.premium-products-mobile h3, h2,li{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 .premium-products-mobile ul{
     text-align: left;
 
 }
 
 .easy-to-buy{
-    margin-top: 30px;
+    /* margin-top: 30px;
     margin-bottom: 30px;
+    display: flex; */
     display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .easy-to-buy-image{
     width: 50%;
@@ -175,7 +205,29 @@
     align-items: center;
 
 }
+.easy-to-buy-description h3{
+    color: #cd5960;
+    font-weight: bold;
+}
+/* .easy-to-buy-text{
+    margin-top: 15px;
+    margin-bottom: 15px;
 
+} */
+.premium-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.premium-text h3,h2{
+    text-align: center;
+}
+.easy-to-buy-text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.easy-to-buy-text h3, h2{
+    text-align: center;
+}
 .easy-to-buy-description-premium{
     display: flex;
     flex-direction: column;
@@ -186,6 +238,8 @@
 .good-company{
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .good-company-description{
     display: flex;
@@ -201,11 +255,18 @@
     justify-content: center;
     align-items: center;
 }
-footer{
+.good-company-text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.good-company-text h3, h2{
+    text-align: center;
+}
+.footer-desktop{
     background-color: #388888;
     color: white;
 }
-.footer-links{
+.footer-desktop-links{
     display: flex;
     justify-content: space-around;
     margin-top: 150px;
@@ -214,10 +275,10 @@ footer{
 
 }
 
-.footer-links p {
+.footer-desktop-links p {
     margin-bottom: 8px;
 }
-.footer-search-bar{
+.footer-desktop-search-bar{
     margin-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -260,9 +321,9 @@ footer{
 }
 .divider{
     width: 1px;
-    height: 40px; 
+    height: 40px;
     background-color: white;
-    margin: 0 10px; 
+    margin: 0 10px;
 }
 #clear{
     text-align: center;
@@ -348,7 +409,7 @@ footer{
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 600px; 
+    height: 450px;
 }
 
 .carousel-slide-premium {
@@ -383,6 +444,16 @@ footer{
     background-color: #40C0CB;
 }
 
+.last-hr{
+    display: none;
+}
+.who-we-are{
+    display: none;
+}
+
+.footer-mobile{
+    display: none;
+}
 
 
 /* Responsive adjustments */
@@ -406,10 +477,15 @@ footer{
     }
     .hero-description{
         margin-top: 10px;
-        padding-top: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     #hero-button2{
         margin-top: 10px;
+    }
+    .custom-container{
+        margin-right: 15px;
+        margin-left: 15px;
     }
     .steps-to-play-desktop{
         display: none;
@@ -423,9 +499,72 @@ footer{
     .premium-products-mobile{
         display: block;
     }
-    .footer-links{
+    .footer-desktop-links{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .last-hr{
+        display: block;
+    }
+    .who-we-are{
+        display: block;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .who-we-are-img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .copyright-links{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-desktop{
+        display: none;
+    }
+    .footer-mobile{
+        display: block;
+        background-color: #388888;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 30px;
+    }
+    .footer-mobile-links{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .footer-mobile-search-bar{
+        padding: 20px 0px;
+        margin: 3px 3px;
+    }
+    /*
+    .footer-desktop{
+    background-color: #388888;
+    color: white;
+    }
+    .footer-desktop-links{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 150px;
+        padding-top: 30px;
+        padding-bottom: 150px;
+
+    }
+
+    .footer-desktop-links p {
+        margin-bottom: 8px;
+    }
+    .footer-desktop-search-bar{
+        margin-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    */
 }
