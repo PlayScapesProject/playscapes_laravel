@@ -306,6 +306,22 @@
     font-size: 16px;
     width: 80%;
 }
+.search-box-mobile{
+    display: flex;
+    flex-direction: column;
+}
+.search-box-mobile input[type="text"] {
+    border: 2px solid white;
+    /* padding: 10px; */
+    width: 200px;
+    outline: none;
+    /* background-color: #4a9b9f; */
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}
+
 
 
 .search-box button {
@@ -328,6 +344,17 @@
 #clear{
     text-align: center;
 }
+#clear-mobile{
+    text-align: center;
+    border: 2px solid white;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#clear-mobile:hover{
+    color: black;
+    background-color: white;
+}
 
 .copyright{
     display: flex;
@@ -339,8 +366,8 @@
 .copyright-links{
     display: flex;
 }
-.copyright-links p{
-    margin-right: 10px;
+.copyright-links div{
+    margin-right: 20px;
 }
 
 
@@ -454,6 +481,9 @@
 .footer-mobile{
     display: none;
 }
+.facebook-instagram{
+    display: flex;
+}
 
 
 /* Responsive adjustments */
@@ -463,6 +493,13 @@
     }
     .carousel-container {
         display: flex;
+    }
+    .facebook-instagram{
+        flex-direction: row;
+    }
+    .copyright-links div{
+        margin-right: 20px;
+        margin-top: 10px;
     }
 }
 
@@ -539,32 +576,21 @@
     .footer-mobile-links{
         text-align: center;
         padding-bottom: 10px;
+        margin: 0px 15px;
+    }
+    .footer-mobile-links div{
+        margin-top: 20px;
     }
     .footer-mobile-search-bar{
         padding: 20px 0px;
         margin: 3px 3px;
     }
-    /*
-    .footer-desktop{
-    background-color: #388888;
-    color: white;
-    }
-    .footer-desktop-links{
+    .get-started-outdoor{
         display: flex;
-        justify-content: space-around;
-        margin-top: 150px;
-        padding-top: 30px;
-        padding-bottom: 150px;
-
+        justify-content: space-between;
     }
-
-    .footer-desktop-links p {
-        margin-bottom: 8px;
+    .indoor-other-links{
+        display: flex;
+        justify-content: space-between;
     }
-    .footer-desktop-search-bar{
-        margin-top: 30px;
-        padding-bottom: 30px;
-        text-align: center;
-    }
-    */
 }

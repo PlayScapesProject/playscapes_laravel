@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel</title>
+    <title>Playscapes</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -43,9 +43,12 @@
                     <a href="#" class="text-gray-700 uppercase">Outdoor</a>
                     <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-md">
                         <ul class="py-2">
-                            <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">All Outdoor</a></li>
-                            <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Architectural</a></li>
-                            <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Classic</a></li>
+                            <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">All
+                                    Outdoor</a></li>
+                            <li><a href="#"
+                                    class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Architectural</a></li>
+                            <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Classic</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -54,9 +57,12 @@
                     <a href="#" class="text-gray-700 uppercase">Indoor</a>
                     <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-md">
                         <ul class="py-2">
-                            <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">All Indoor</a></li>
-                            <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Architectural</a></li>
-                            <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Classic</a></li>
+                            <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">All Indoor</a>
+                            </li>
+                            <li><a href="#"
+                                    class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Architectural</a></li>
+                            <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Classic</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -562,45 +568,50 @@
                     9:00 a.m - 5:00pm(EAT) Sat-Sun
                 </p>
             </div>
-            <div>
-                <p class="text-xl uppercase">Get Started</p>
-                <br>
-                <p>Find My Playset</p>
-                <p>Request Catalog</p>
-                <p>Contact Us</p>
-                <p>Wishlist</p>
-                <p>Product FAQ</p>
-                <p>Blog</p>
-                <p>Financing</p>
-            </div>
-            <div>
-                <p class="text-xl uppercase">Outdooor</p>
-                <br>
-                <p>Rustic</p>
-                <p>Classic</p>
-                <p>Architectural</p>
-                <p>Toys & Furniture</p>
-                <p>Gift Certificates</p>
+            <div class="get-started-outdoor">
+                <div>
+                    <p class="text-xl uppercase">Get Started</p>
+                    <br>
+                    <p>Find My Playset</p>
+                    <p>Request Catalog</p>
+                    <p>Contact Us</p>
+                    <p>Wishlist</p>
+                    <p>Product FAQ</p>
+                    <p>Blog</p>
+                    <p>Financing</p>
+                </div>
+                <div>
+                    <p class="text-xl uppercase">Outdooor</p>
+                    <br>
+                    <p>Rustic</p>
+                    <p>Classic</p>
+                    <p>Architectural</p>
+                    <p>Toys & Furniture</p>
+                    <p>Gift Certificates</p>
 
+                </div>
             </div>
-            <div>
-                <p class="text-xl uppercase">Indoor</p>
-                <br>
-                <p>Playsets</p>
-                <p>Toys & Furniture</p>
+            <div class="indoor-other-links">
+                <div>
+                    <p class="text-xl uppercase">Indoor</p>
+                    <br>
+                    <p>Playsets</p>
+                    <p>Toys & Furniture</p>
+                </div>
+                <div>
+                    <p class="text-xl uppercase">Other Links</p>
+                    <br>
+                    <p>Accessories</p>
+                    <p>Service & Support</p>
+                    <p>Press & Media</p>
+                    <p>Design Your Own</p>
+                    <p>Navigator</p>
+                    <p>Careers</p>
+                    <p>Waranty</p>
+                    <p>My Account</p>
+                </div>
             </div>
-            <div>
-                <p class="text-xl uppercase">Other Links</p>
-                <br>
-                <p>Accessories</p>
-                <p>Service & Support</p>
-                <p>Press & Media</p>
-                <p>Design Your Own</p>
-                <p>Navigator</p>
-                <p>Careers</p>
-                <p>Waranty</p>
-                <p>My Account</p>
-            </div>
+
         </div>
         <hr>
         <div class="footer-mobile-search-bar">
@@ -608,33 +619,42 @@
             <div class="search-box-mobile">
                 <input style="outline:none" type="text">
                 {{-- <div class="divider"></div> --}}
-                <button id="clear">CLEAR</button>
+                <button id="clear-mobile">CLEAR</button>
             </div>
         </div>
     </footer>
     {{-- End Footer Mobile --}}
     <section class="copyright">
         <div class="copyright-links">
-            <p>Copyright &copy; PlayScapes 2024 </p>
-            <p>Privacy Policy</p>
-            <p>
-                <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24"
-                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                </svg>
-            </p>
-            <p>
-                <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24"
-                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
-                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
-                    <path d="M16.5 7.5l0 .01"></path>
-                </svg>
-            </p>
+            <div>
+                <p>Copyright &copy; PlayScapes 2024 </p>
+            </div>
+            <div>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="facebook-instagram">
+                <div>
+                    <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                    </svg>
+                </div>
+                <div>
+                    <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                        <path d="M16.5 7.5l0 .01"></path>
+                    </svg>
+                </div>
+
+            </div>
         </div>
         <div>
             &nbsp;
