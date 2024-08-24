@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PlayscapesController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +19,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about_us', function (){
+    return view('about_us');
+});
+
+Route::get('/gallery', [PlayscapesController::class, 'gallery']);
+
+Route::get('/contact_us', [PlayscapesController::class, "contact_us"]);
 
 
 Route::get('/dashboard', function () {
