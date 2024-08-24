@@ -34,7 +34,8 @@
     <section class="hero">
 
         <div class="hero-image">
-            <img style="object-fit: cover;height:100%" src="https://assets.telegraphindia.com/telegraph/2022/Dec/1670380679_new-project-2022-12-07t080748-004.jpg"
+            <img style="object-fit: cover;height:100%"
+                src="{{ asset('images/heross.png') }}"
                 alt="Playing Children">
         </div>
         <div class="hero-description">
@@ -47,8 +48,8 @@
 
             </div>
             <div class="hero-buttons mt-10">
-                <button id="hero-button1">Outdoor</button>
-                <button id="hero-button2">Indoor</button>
+                <a href="{{ route('gallery') }}" id="hero-button1">Gallery</a>
+                <a href="{{ route('contact') }}" id="hero-button2">Contact Us</a>
             </div>
             <div class="mt-10 pt-4 find-my-playlist">
                 <div style="margin-right: 3px">
@@ -71,7 +72,7 @@
 
         <section class="steps-to-play-desktop">
             <h2 class="uppercase text-4xl" id="steps-title">3 Steps to play </h2>
-            <p class="mt-2">It's easy to get the perfect CedarWorks playset for your family, and you never have to
+            <p class="mt-2">It's easy to get the perfect Playscapes playset for your family, and you never have to
                 leave
                 the house.</p>
             <div class="steps-desktop">
@@ -138,7 +139,7 @@
         <hr>
 
         <section class="playsets-section text-center mt-10 mb-10">
-            <h3 class="text-5xl">Cedaworks Playsets</h3>
+            <h3 class="text-5xl">Playscapes Playsets</h3>
             <div class="playsets">
                 <div class="playsets-description">
                     From outdoor <span id="redirect-link"><a href="">swing sets and playsets</a></span> to

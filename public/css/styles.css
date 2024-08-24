@@ -665,6 +665,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 50%;
+}
+.about-what-we-sell-image{
+    width: 50%;
 }
 .about-what-we-sell-description p{
     width: 60%;
@@ -711,6 +715,10 @@
     }
     .about-what-we-sell-description{
         margin-bottom: 15px;
+        width: 100%;
+    }
+    .about-what-we-sell-image{
+        width: 100%;
     }
     .about-what-we-sell-description p{
         width: 100%;

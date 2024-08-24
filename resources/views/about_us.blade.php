@@ -35,15 +35,14 @@
         <section class="hero-about-us">
 
             <div class="hero-about-us-img">
-                <img src="https://assets.telegraphindia.com/telegraph/2022/Dec/1670380679_new-project-2022-12-07t080748-004.jpg"
-                    alt="Playing Children">
+                <img src="{{ asset('images/heross.png') }}" alt="Playing Children">
             </div>
             <div class="hero-description-about-us">
                 <h1 class="text-4xl">Who we are</h1>
                 <p class="mt-5 her">
-                    At CedarWorks we come from a variety of backgrounds and from all over the country (and even beyond),
-                    but we are all lucky enough to live in a place as beautiful as Maine and to do what we love. We
-                    think you’ll love what we do, too.
+                    Welcome to Playscape Ke, where adventure meets imagination! We believe that the best memories are made
+                    under the open sky, with laughter in the air and dirt on your shoes. Our mission is simple: to inspire
+                    families to unplug, step outside, and rediscover the joy of outdoor play.
 
                 </p>
             </div>
@@ -54,15 +53,16 @@
 
         <section class="about-what-we-sell">
             <div class="about-what-we-sell-description">
-                <h2 class="text-4xl">What we sell</h2>
+                <h2 class="text-4xl">Why choose us</h2>
                 <p class="">
-                    From outdoor swing sets and playsets to indoor
-                    playsets, we design and manufacture the most beautiful,
-                    environmentally responsible products in the world for active play.
+                    At Playscapes ke, we’re passionate about creating high-quality, safe, and fun play equipment that
+                    transforms any outdoor space into an adventure zone. With durable designs and endless play
+                    possibilities, we help you build lasting memories right in your backyard. Choose us to bring
+                    imagination, safety, and joy to every playtime!
                 </p>
                 <a href="" class="uppercase" id="view-gallery-btn">View Gallery</a>
             </div>
-            <div class="">
+            <div class="about-what-we-sell-image">
                 <img src="https://assets.telegraphindia.com/telegraph/2022/Dec/1670380679_new-project-2022-12-07t080748-004.jpg"
                     alt="" srcset="">
                 <a href="" class="uppercase" id="view-gallery-btn-mobile">View Gallery</a>
