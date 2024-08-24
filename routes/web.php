@@ -17,15 +17,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::get('/about_us', function (){
     return view('about_us');
-});
+})->name('about');
 
-Route::get('/gallery', [PlayscapesController::class, 'gallery']);
+Route::get('/gallery', [PlayscapesController::class, 'gallery'])->name('gallery');
 
-Route::get('/contact_us', [PlayscapesController::class, "contact_us"]);
+Route::get('/contact_us', [PlayscapesController::class, "contact_us"])->name('contact');
 
 
 Route::get('/dashboard', function () {

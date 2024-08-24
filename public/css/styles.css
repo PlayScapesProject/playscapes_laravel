@@ -6,7 +6,7 @@
 .cart-area{
     display: flex;
     justify-content: space-between;
-    margin: 6px 0px;
+    margin: 6px 10px;
     padding: 4px;
 }
 .cart-wishlist{
@@ -20,6 +20,7 @@
     display: flex;
     background-color:#E4F5F5;
     color: #388888;
+
      /* #61bebe; */
 }
 .hero-image{
@@ -618,6 +619,15 @@
 
 }
 
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    .hero{
+        height: 75vh;
+    }
+
+}
+
 
 /* About us CSS */
 
@@ -842,7 +852,14 @@
 .input-field{
     margin-top: 10px;
 }
-
+.contact-email-phone{
+    margin: 10px 0px;
+    padding: 20px 0px;
+}
+.contact-hours{
+    margin: 10px 0px;
+    padding: 20px 0px;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .contact-us-container{
