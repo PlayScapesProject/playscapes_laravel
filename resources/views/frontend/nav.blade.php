@@ -1,7 +1,7 @@
-<nav class="flex items-center justify-between p-4 bg-white shadow-md">
+<nav class="flex items-center navigatio-menu justify-between p-4 bg-white ">
     <div class="text-lg font-semibold"><a href="{{ route('home') }}">Playscapes</a></div>
     <div class="flex">
-        <div class="space-x-4 hidden md:flex mr-3 relative">
+        <div class="space-x-10 font-bold  hidden md:flex mr-3 relative">
             <!-- Outdoor Dropdown -->
             <div class="group inline-block relative">
                 <a href="{{ route('about') }}" class="text-gray-700 uppercase">About us</a>

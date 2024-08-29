@@ -48,12 +48,12 @@
             </div>
 
         </section>
-        <hr class="mt-10">
+        <hr class="mt-10 mb-10">
 
 
         <section class="about-what-we-sell">
             <div class="about-what-we-sell-description">
-                <h2 class="text-4xl">Why choose us</h2>
+                <h2 class="text-4xl">What we build</h2>
                 <p class="">
                     At Playscapes ke, we’re passionate about creating high-quality, safe, and fun play equipment that
                     transforms any outdoor space into an adventure zone. With durable designs and endless play
@@ -63,10 +63,30 @@
                 <a href="" class="uppercase" id="view-gallery-btn">View Gallery</a>
             </div>
             <div class="about-what-we-sell-image">
-                <img src="https://assets.telegraphindia.com/telegraph/2022/Dec/1670380679_new-project-2022-12-07t080748-004.jpg"
-                    alt="" srcset="">
+                <img src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.40 AM (1).jpeg') }}" alt=""
+                    srcset="">
                 <a href="" class="uppercase" id="view-gallery-btn-mobile">View Gallery</a>
             </div>
+        </section>
+        <hr class="mt-10 mb-10">
+        <section class="about-what-we-sell">
+            <div class="about-what-we-sell-image">
+                <img src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.29 AM.jpeg') }}" alt=""
+                    srcset="">
+                <a href="" class="uppercase" id="view-gallery-btn-mobile">View Gallery</a>
+            </div>
+            <div class="about-what-we-sell-description">
+                <h2 class="text-4xl">Escape outside with us</h2>
+                <p class="">
+                    Whether you're building a backyard wonderland or creating a community hub, our play equipment is
+                    designed to
+                    spark creativity, encourage exaploration, and bring people together. With every swing, slide, and spin,
+                    we aim to help kids (and the young at heart) escape into a world where the only limit is their
+                    imagination
+                </p>
+                <a href="" class="uppercase" id="view-gallery-btn">View Gallery</a>
+            </div>
+
         </section>
     </div>
 @endsection

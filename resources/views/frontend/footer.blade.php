@@ -71,7 +71,7 @@
     </div>
     <hr>
     <div class="footer-desktop-search-bar">
-        <p class="uppercase text-center text-3xl">product search</p>
+        <p class="uppercase text-center text-2xl">product search</p>
         <div class="search-box">
             <input style="outline:none" type="text">
             <div class="divider"></div>
@@ -156,7 +156,7 @@
     </div>
     <hr>
     <div class="footer-mobile-search-bar">
-        <p class="uppercase text-center text-3xl mb-4">product search</p>
+        <p class="uppercase text-center text-2xl mb-4">product search</p>
         <div class="search-box-mobile">
             <input style="outline:none" type="text">
             {{-- <div class="divider"></div> --}}

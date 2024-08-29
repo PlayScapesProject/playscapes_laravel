@@ -4,7 +4,7 @@
     <div class="cart-area">
 
         <div>
-            HomePage
+            Home
         </div>
 
         <div class="cart-wishlist">
@@ -34,22 +34,20 @@
     <section class="hero">
 
         <div class="hero-image">
-            <img style="object-fit: cover;height:100%"
-                src="{{ asset('images/heross.png') }}"
-                alt="Playing Children">
+            <img style="object-fit: cover;height:100%" src="{{ asset('images/heross.png') }}" alt="Playing Children">
         </div>
         <div class="hero-description">
             <div id="playful-img">
                 <img style="width: 160px" src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
             </div>
             <div class="mt-5">
-                <p class="text-5xl">Play is</p>
-                <p class="text-5xl">beautiful</p>
+                <p class="text-5xl">Play with</p>
+                <p class="text-5xl">Playscapes KE</p>
 
             </div>
             <div class="hero-buttons mt-10">
                 <a href="{{ route('gallery') }}" id="hero-button1">Gallery</a>
-                <a href="{{ route('contact') }}" id="hero-button2">Contact Us</a>
+                <a href="{{ route('contact') }}" id="hero-button2">Contact</a>
             </div>
             <div class="mt-10 pt-4 find-my-playlist">
                 <div style="margin-right: 3px">
@@ -79,28 +77,28 @@
                 <div class="step-1-desktop">
                     <h3 id="step-title-desktop" class="text-3xl">1. Choose It</h3>
                     <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                    <p id="step-description-desktop">Choose, customize, or design online</p>
+                    <p id="step-description-desktop">Choose a playset design you prefer </p>
                 </div>
                 <div class="step-1-desktop">
                     <h3 id="step-title-desktop" class="text-3xl">2. Buy It</h3>
                     <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                    <p id="step-description-desktop">Choose, customize, or design online</p>
+                    <p id="step-description-desktop">Order online or by phone</p>
                 </div>
                 <div class="step-1-desktop">
                     <h3 id="step-title-desktop" class="text-3xl">3. Get It</h3>
                     <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                    <p id="step-description-desktop">Choose, customize, or design online</p>
+                    <p id="step-description-desktop">We deliver countrywide to your destination</p>
                 </div>
                 <div class="step-1-desktop">
                     <h3 id="step-title-desktop" class="text-3xl">Play!</h3>
                     <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                    <p id="step-description-desktop">Choose, customize, or design online</p>
+                    <p id="step-description-desktop">Play!</p>
                 </div>
             </div>
         </section>
         <section class="steps-to-play md:hidden">
             <h2 class="uppercase text-4xl" id="steps-title">3 Steps to play</h2>
-            <p class="mt-2">It's easy to get the perfect CedarWorks playset for your family, and you never have to
+            <p class="mt-2">It's easy to get the perfect playset for your family, and you never have to
                 leave
                 the house.</p>
             <div class="steps-carousel ">
@@ -108,22 +106,22 @@
                     <div class="step">
                         <h3 id="step-title" class="text-3xl">1. Choose It</h3>
                         <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                        <p id="step-description">Choose, customize, or design online</p>
+                        <p id="step-description">Choose a playset design you prefer</p>
                     </div>
                     <div class="step">
                         <h3 id="step-title" class="text-3xl">2. Buy It</h3>
                         <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                        <p id="step-description">Choose, customize, or design online</p>
+                        <p id="step-description">Order online or by phone</p>
                     </div>
                     <div class="step">
                         <h3 id="step-title" class="text-3xl">3. Get It</h3>
                         <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                        <p id="step-description">Choose, customize, or design online</p>
+                        <p id="step-description">We deliver countrywide to your destination</p>
                     </div>
                     <div class="step">
                         <h3 id="step-title" class="text-3xl">Play!</h3>
                         <img src="{{ asset('images/choose.png') }}" alt="Choose it">
-                        <p id="step-description">Choose, customize, or design online</p>
+                        <p id="step-description">Play!</p>
                     </div>
                 </div>
                 <div class="carousel-dots">
@@ -142,11 +140,9 @@
             <h3 class="text-5xl">Playscapes Playsets</h3>
             <div class="playsets">
                 <div class="playsets-description">
-                    From outdoor <span id="redirect-link"><a href="">swing sets and playsets</a></span> to
-                    <span id="redirect-link"><a href="">indoor playsets</a></span> , we design and manufacture
-                    the most
-                    beautiful,
-                    environmentally responsible products in the world for active play.
+                    We create <span id="redirect-link"><a href="">high-quality, safe</a></span> and
+                    <span id="redirect-link"><a href="">fun</a></span> play equipment to transform any outdoor
+                    space into an adventure zone. So what are you waiting for? Escape outside with us, and let the adventures begin!
                 </div>
                 <div class="playsets-image">
                     <img id="playsets-img" src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
@@ -173,7 +169,7 @@
                     <div class="premium-text">
                         <h3 class="uppercase text-3xl">Premium Products</h3>
                         <h2>The highest quality materials, construction, and design</h2>
-                        <ul>
+                        <ul style="list-style-type: disc;margin-left:20px">
                             <li>
                                 Naturally splinter-free Northern White Cedar
                             </li>
@@ -192,7 +188,7 @@
                 </div>
                 <div class="premium-image">
 
-                    <img style="height: 500px" src="{{ asset('images/premium-img.jpg') }}" alt=""
+                    <img style="height: 500px" src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.40 AM.jpeg') }}" alt=""
                         srcset="">
 
                 </div>
@@ -202,14 +198,14 @@
             <div class="easy-to-buy">
 
                 <div class="easy-to-buy-image">
-                    <img style="height: 500px" src="{{ asset('images/easy-to-buy.jpg') }}" alt="">
+                    <img style="height: 500px" src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.42 AM (1).jpeg') }}" alt="">
                 </div>
                 <div class="easy-to-buy-description">
                     <img style="width: 100px" src="{{ asset('images/marketing-point-2.svg') }}" alt="">
                     <div class="easy-to-buy-text">
                         <h3 class="uppercase text-3xl">easy to buy</h3>
                         <h2>No worries. No stress. The modern way to buy a playset.</h2>
-                        <ul>
+                        <ul style="list-style-type: disc;margin-left:20px">
                             <li>Buy from home — online or by phone</li>
                             <li>
                                 Customize and get exactly what you want
@@ -232,7 +228,7 @@
                     <div class="good-company-text">
                         <h3 class="uppercase text-3xl">good company</h3>
                         <h2>Family-owned, looking out for kids and the environment</h2>
-                        <ul>
+                        <ul style="list-style-type: disc;margin-left:20px">
                             <li>
                                 Earth-friendly, kid-friendly materials
                             </li>
@@ -249,7 +245,7 @@
 
                 </div>
                 <div class="good-company-image">
-                    <img style="height: 500px" src="{{ asset('images/goodcompany.jpg') }}" alt="">
+                    <img style="height: 500px" src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.40 AM (1).jpeg') }}" alt="">
 
                 </div>
 
@@ -265,7 +261,7 @@
                         <img style="width: 80px" src="{{ asset('images/premium.svg') }}" alt="">
                         <h3 class="uppercase text-3xl">Premium Products</h3>
                         <h2>The highest quality materials, construction, and design</h2>
-                        <ul>
+                        <ul style="list-style-type: disc">
                             <li>Naturally splinter-free Northern White Cedar</li>
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>
@@ -285,7 +281,7 @@
                         <img style="width: 80px" src="{{ asset('images/marketing-point-2.svg') }}" alt="">
                         <h3 class="uppercase text-3xl">easy to buy</h3>
                         <h2>No worries. No stress. The modern way to buy a playset.</h2>
-                        <ul>
+                        <ul style="list-style-type: disc">
                             <li>Naturally splinter-free Northern White Cedar</li>
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>
@@ -299,7 +295,7 @@
                         <img style="width: 80px" src="{{ asset('images/marketing-point-3.svg') }}" alt="">
                         <h3 class="uppercase text-3xl">good company</h3>
                         <h2>Family-owned, looking out for kids and the environment</h2>
-                        <ul>
+                        <ul style="list-style-type: disc">
                             <li>Naturally splinter-free Northern White Cedar</li>
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>

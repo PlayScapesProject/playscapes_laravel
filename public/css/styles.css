@@ -23,6 +23,9 @@
 
      /* #61bebe; */
 }
+.navigatio-menu{
+    border-bottom: 0.5px solid #F0F0F0	;
+}
 .hero-image{
     width: 50%;
 }
@@ -54,7 +57,7 @@
 }
 
 #hero-button1{
-    padding: 5px 19px;
+    padding: 9px 19px;
     border: 2px solid #388888;
     border-radius: 20px;
     text-transform: uppercase;
@@ -62,7 +65,7 @@
     color: #388888;
 }
 #hero-button2{
-    padding: 5px 19px;
+    padding: 9px 19px;
     border: 2px solid #388888;
     border-radius: 20px;
     text-transform: uppercase;
@@ -655,6 +658,8 @@
 }
 .about-what-we-sell{
     display: flex;
+    /* justify-content: space-between;
+    align-content: end; */
     margin-top: 20px;
     padding-top: 10px;
     text-align: center;
@@ -663,7 +668,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
+    justify-content: space-evenly;
     text-align: center;
     width: 50%;
 }
