@@ -1,5 +1,5 @@
 <nav class="flex items-center navigatio-menu justify-between p-4 bg-white ">
-    <div class="text-lg font-semibold"><a href="{{ route('home') }}">Playscapes</a></div>
+    <div class="text-lg uppercase font-semibold"><a href="{{ route('home') }}">Playscapes</a></div>
     <div class="flex">
         <div class="space-x-10 font-bold  hidden md:flex mr-3 relative">
             <!-- Outdoor Dropdown -->
@@ -35,7 +35,7 @@
             <a href="{{ route('contact') }}" class="text-gray-700 uppercase">contact us</a>
         </div>
         <div>
-            <button id="menu-btn" class="block text-gray-700 focus:outline-none">
+            <button id="menu-btn" class="block font-bold text-gray-700 focus:outline-none">
                 MENU &#9776;
             </button>
         </div>
