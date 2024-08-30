@@ -49,6 +49,10 @@
                 <a href="{{ route('gallery') }}" id="hero-button1">Gallery</a>
                 <a href="{{ route('contact') }}" id="hero-button2">Contact</a>
             </div>
+            <div class="hero-buttons-mobile mt-10">
+                <a href="{{ route('gallery') }}" id="hero-button1-mobile">Gallery</a>
+                <a href="{{ route('contact') }}" id="hero-button2-mobile">Contact</a>
+            </div>
             <div class="mt-10 pt-4 find-my-playlist">
                 <div style="margin-right: 3px">
                     <svg width="26" height="26" stroke-width="1.0" color="#388888" xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +64,7 @@
                     </svg>
                 </div>
                 <div>
-                    <p class="uppercase text-2xl">Find my playset</p>
+                    <p class="uppercase text-2xl"><a href="{{ route('gallery') }}">Find my playset</a></p>
                 </div>
             </div>
         </div>
@@ -166,7 +170,7 @@
                 <div class="premium-description">
                     <img style="width: 100px;color:#357f7e;" src="{{ asset('images/premium.svg') }}" alt="">
 
-                    <div class="premium-text">
+                    <div class="premium-text space-y-5">
                         <h3 class="uppercase text-3xl">Premium Products</h3>
                         <h2>The highest quality materials, construction, and design</h2>
                         <ul style="list-style-type: disc;margin-left:20px">
@@ -202,7 +206,7 @@
                 </div>
                 <div class="easy-to-buy-description">
                     <img style="width: 100px" src="{{ asset('images/marketing-point-2.svg') }}" alt="">
-                    <div class="easy-to-buy-text">
+                    <div class="easy-to-buy-text space-y-5">
                         <h3 class="uppercase text-3xl">easy to buy</h3>
                         <h2>No worries. No stress. The modern way to buy a playset.</h2>
                         <ul style="list-style-type: disc;margin-left:20px">
@@ -225,7 +229,7 @@
                 <div class="good-company-description">
                     <img style="width: 100px" src="{{ asset('images/marketing-point-3.svg') }}" alt=""
                         srcset="">
-                    <div class="good-company-text">
+                    <div class="good-company-text space-y-5">
                         <h3 class="uppercase text-3xl">good company</h3>
                         <h2>Family-owned, looking out for kids and the environment</h2>
                         <ul style="list-style-type: disc;margin-left:20px">
@@ -254,10 +258,10 @@
 
         <section class="premium-products-mobile mt-10 mb-10">
             <h3 class="text-3xl">Why</h3>
-            <h3 class="text-3xl">Cedaworks?</h3>
+            <h3 class="text-3xl">Playscapes KE?</h3>
             <div class="carousel-premium">
                 <div class="carousel-slide-premium premium-mobile">
-                    <div class="premium-description-mobile">
+                    <div class="premium-description-mobile mt-1 space-y-3">
                         <img style="width: 80px" src="{{ asset('images/premium.svg') }}" alt="">
                         <h3 class="uppercase text-3xl">Premium Products</h3>
                         <h2>The highest quality materials, construction, and design</h2>
@@ -266,7 +270,7 @@
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>
                         </ul>
-                        <a href="#">Learn more about our premium products</a>
+                        {{-- <a href="#">Learn more about our premium products</a> --}}
                     </div>
                     {{-- <div class="premium-image-mobile">
                 <img style="height: 500px" src="{{ asset('images/premium-img.jpg') }}" alt="">
@@ -277,7 +281,7 @@
                     {{-- <div class="easy-to-buy-image-premium">
                 <img style="height: 500px" src="{{ asset('images/easy-to-buy.jpg') }}" alt="">
             </div> --}}
-                    <div class="easy-to-buy-description-premium">
+                    <div class="easy-to-buy-description-premium mt-1  space-y-3">
                         <img style="width: 80px" src="{{ asset('images/marketing-point-2.svg') }}" alt="">
                         <h3 class="uppercase text-3xl">easy to buy</h3>
                         <h2>No worries. No stress. The modern way to buy a playset.</h2>
@@ -286,12 +290,12 @@
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>
                         </ul>
-                        <a href="#">Learn more about our premium products</a>
+                        {{-- <a href="#">Learn more about our premium products</a> --}}
                     </div>
                 </div>
 
                 <div class="carousel-slide-premium good-company-mobile">
-                    <div class="good-company-description-mobile">
+                    <div class="good-company-description-mobile mt-1  space-y-3">
                         <img style="width: 80px" src="{{ asset('images/marketing-point-3.svg') }}" alt="">
                         <h3 class="uppercase text-3xl">good company</h3>
                         <h2>Family-owned, looking out for kids and the environment</h2>
@@ -300,7 +304,7 @@
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>
                         </ul>
-                        <a href="#">Learn more about our premium products</a>
+                        {{-- <a href="#">Learn more</a> --}}
                     </div>
                     {{-- <div class="good-company-image-premium">
                 <img style="height: 500px" src="{{ asset('images/goodcompany.jpg') }}" alt="">

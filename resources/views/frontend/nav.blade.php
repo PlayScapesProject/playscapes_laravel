@@ -51,7 +51,7 @@
     <div class="p-4">
         <div class="menu-overlay-button">
             <div>
-                &nbsp;
+                <p class="uppercase font-bold"><a href="{{ route('home') }}">playscapes</a></p>
             </div>
             <div>
                 <button id="close-menu" class="text-gray-700 focus:outline-none">

@@ -75,7 +75,7 @@
         <div class="search-box">
             <input style="outline:none" type="text">
             <div class="divider"></div>
-            <button id="clear">CLEAR</button>
+            <button class="" id="clear"><p class="uppercase">clear</p></button>
         </div>
     </div>
 </footer>
