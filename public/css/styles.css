@@ -63,27 +63,29 @@
 }
 
 #hero-button1{
-    padding: 9px 19px;
-    border: 2px solid #388888;
+    padding: 11px 30px;
+    border: 2px solid #1baad890;
     border-radius: 20px;
     text-transform: uppercase;
     margin-right: 10px;
-    color: #388888;
+    color: black;
 }
-#hero-button1:hover{
-    background-color: #388888;
+/* #hero-button1:hover{
+    background-color: #1baad8;
+    background-color: transparent;
     color: white;
-}
-#hero-button2:hover{
-    background-color: #388888;
+} */
+/* #hero-button2:hover{
+    background-color: #1baad8;
+    background-color: transparent;
     color: white;
-}
+} */
 #hero-button2{
-    padding: 9px 19px;
-    border: 2px solid #388888;
+    padding: 11px 30px;
+    border: 2px solid #1baad890;
     border-radius: 20px;
     text-transform: uppercase;
-    color: #388888;
+    color: black;
 }
 .find-my-playlist{
     display: flex;
@@ -134,11 +136,11 @@
     margin-top: 35px;
 }
 #redirect-link {
-    color: #86b3b2;
+    color: #1baad8;
 
 }
 #premium-link{
-    color: #86b3b2;
+    color: #1baad8;
     /* margin-top: 8px; */
 }
 #playsets-img{
@@ -164,13 +166,13 @@
     display: none;
 }
 #premium{
-    color: #61BEBE;
+    color: #1baad8;
 }
 #easy{
-    color: #CC5860;
+    color: #f2b21d;
 }
 #good{
-    color: #AAC438;
+    color: #98b357;
 }
 .premium{
     /* display: flex;
@@ -394,7 +396,7 @@
 .copyright{
     display: flex;
     justify-content: space-between;
-    background-color: #1baad880;
+    background-color: #1baad890;
     /* opacity: 0.8; */
     padding: 20px 10px;
     color: white;
@@ -435,7 +437,7 @@
 
 #steps-title {
     /* color: #40C0CB; */
-    color: #1baad898;
+    color: #1baad880;
 }
 
 #step-title {
@@ -567,10 +569,10 @@
     }
     .hero-buttons-mobile{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     #hero-button1-mobile{
-        padding: 3px 30px;
+        padding: 10px 30px;
         border: 2px solid #388888;
         border-radius: 20px;
         text-transform: uppercase;
@@ -582,12 +584,13 @@
         color: white;
     }
     #hero-button2-mobile{
-        padding: 3px 30px;
+        padding: 10px 30px;
         border: 2px solid #388888;
         border-radius: 20px;
+        margin-left: 20px;
         text-transform: uppercase;
         /* margin-right: 10px; */
-        margin-top: 9px;
+        /* margin-top: 19px; */
         color: #388888;
     }
     #hero-button2-mobile:hover{

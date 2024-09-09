@@ -26,6 +26,7 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    background-color: #1baad850;
     /* height: 90vh; */
     /* padding: 20px; */
 }
@@ -44,11 +45,18 @@
     text-align: center;
 
 }
+.navigatio-menu{
+    color: #1baad890;
+}
+#menu-overlay{
+    color: #1baad890 !important;
+}
 
 /* On smaller screens, stack the image above the description */
 @media screen and (max-width: 768px) {
     .landing {
         flex-direction: column;
+        height: 80vh;
     }
 
     .landing-image {

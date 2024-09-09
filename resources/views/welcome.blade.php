@@ -245,7 +245,7 @@
                     <img style="width: 100px;color:#357f7e;" src="{{ asset('images/premium.svg') }}" alt="">
 
                     <div class="premium-text space-y-5">
-                        <h3 class="uppercase text-3xl">Premium Products</h3>
+                        <h3 style="color: #1baad8" class="uppercase text-3xl">Premium Products</h3>
                         <h2>The highest quality materials, construction, and design</h2>
                         <ul style="list-style-type: disc;margin-left:20px">
                             <li>
@@ -279,9 +279,9 @@
                     <img style="height: 500px" src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.42 AM (1).jpeg') }}" alt="">
                 </div>
                 <div class="easy-to-buy-description">
-                    <img style="width: 100px" src="{{ asset('images/marketing-point-2.svg') }}" alt="">
+                    <img style="width: 100px" src="{{ asset('images/untitled.svg') }}" alt="">
                     <div class="easy-to-buy-text space-y-5">
-                        <h3 class="uppercase text-3xl">easy to buy</h3>
+                        <h3 style="color: #f2b21d" class="uppercase text-3xl">easy to buy</h3>
                         <h2>No worries. No stress. The modern way to buy a playset.</h2>
                         <ul style="list-style-type: disc;margin-left:20px">
                             <li>Buy from home — online or by phone</li>
@@ -304,7 +304,7 @@
                     <img style="width: 100px" src="{{ asset('images/marketing-point-3.svg') }}" alt=""
                         srcset="">
                     <div class="good-company-text space-y-5">
-                        <h3 class="uppercase text-3xl">good company</h3>
+                        <h3 style="color: #98b357" class="uppercase text-3xl">good company</h3>
                         <h2>Family-owned, looking out for kids and the environment</h2>
                         <ul style="list-style-type: disc;margin-left:20px">
                             <li>
@@ -337,7 +337,7 @@
                 <div class="carousel-slide-premium premium-mobile">
                     <div class="premium-description-mobile mt-1 space-y-3">
                         <img style="width: 80px" src="{{ asset('images/premium.svg') }}" alt="">
-                        <h3 class="uppercase text-3xl">Premium Products</h3>
+                        <h3 style="color: #1baad8" class="uppercase text-3xl">Premium Products</h3>
                         <h2>The highest quality materials, construction, and design</h2>
                         <ul style="list-style-type: disc">
                             <li>Naturally splinter-free Northern White Cedar</li>
@@ -356,8 +356,8 @@
                 <img style="height: 500px" src="{{ asset('images/easy-to-buy.jpg') }}" alt="">
             </div> --}}
                     <div class="easy-to-buy-description-premium mt-1  space-y-3">
-                        <img style="width: 80px" src="{{ asset('images/marketing-point-2.svg') }}" alt="">
-                        <h3 class="uppercase text-3xl">easy to buy</h3>
+                        <img style="width: 80px" src="{{ asset('images/untitled.svg') }}" alt="">
+                        <h3 style="color: #f2b21d" class="uppercase text-3xl">easy to buy</h3>
                         <h2>No worries. No stress. The modern way to buy a playset.</h2>
                         <ul style="list-style-type: disc">
                             <li>Naturally splinter-free Northern White Cedar</li>
@@ -371,7 +371,7 @@
                 <div class="carousel-slide-premium good-company-mobile">
                     <div class="good-company-description-mobile mt-1  space-y-3">
                         <img style="width: 80px" src="{{ asset('images/marketing-point-3.svg') }}" alt="">
-                        <h3 class="uppercase text-3xl">good company</h3>
+                        <h3 style="color: #98b357" class="uppercase text-3xl">good company</h3>
                         <h2>Family-owned, looking out for kids and the environment</h2>
                         <ul style="list-style-type: disc">
                             <li>Naturally splinter-free Northern White Cedar</li>
@@ -403,7 +403,7 @@
 
         </p>
         <div class="who-we-are-img">
-            <img src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
+            <img  src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
         </div>
         <div>
             <p class="">
