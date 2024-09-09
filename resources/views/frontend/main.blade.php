@@ -14,6 +14,7 @@
     @vite('resources/css/app.css')
     <!--Custom CSS-->
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/support.css') }}">
 
 </head>
 

@@ -18,8 +18,9 @@
 }
 .hero{
     display: flex;
-    background-color:#E4F5F5;
-    color: #388888;
+    background-color:#1baad899;
+    /* opacity: 0.8; */
+    color: #1baad8;
 
      /* #61bebe; */
 }
@@ -27,17 +28,22 @@
     border-bottom: 0.5px solid #F0F0F0	;
 }
 .hero-image{
-    width: 50%;
+    width: 80%;
 }
 .hero-description{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
     text-align: center;
-    width: 50%;
+    /* flex-direction: column;   */
+    /* align-items: center;
+    justify-content: center; */
+    /* margin-right: auto;
+    margin-left: auto; */
+    /* text-align: center; */
+    /* width: 40%; */
+    /* opacity: 0.99; */
+    /* width: 100%; */
+    /* background-color: #1baad899; */
 }
 .hero-about-us{
     display: flex;
@@ -91,8 +97,8 @@
     margin-left: 35px;
 }
 .steps-to-play-desktop{
-    margin-top: 50px;
-    padding-top: 40px;
+    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 50px;
     padding-bottom: 40px;
     text-align: center;
@@ -290,7 +296,8 @@
     text-align: center;
 }
 .footer-desktop{
-    background-color: #388888;
+    background-color: #1baad8;
+    /* background-color: #388888; */
     color: white;
 }
 .footer-desktop-links{
@@ -387,7 +394,8 @@
 .copyright{
     display: flex;
     justify-content: space-between;
-    background-color: #3f9a9a;
+    background-color: #1baad880;
+    /* opacity: 0.8; */
     padding: 20px 10px;
     color: white;
 }
@@ -400,8 +408,8 @@
 
 
 .steps-to-play {
-    margin-top: 50px;
-    padding-top: 40px;
+    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 50px;
     padding-bottom: 40px;
     text-align: center;
@@ -426,7 +434,8 @@
 }
 
 #steps-title {
-    color: #40C0CB;
+    /* color: #40C0CB; */
+    color: #1baad898;
 }
 
 #step-title {
@@ -520,12 +529,41 @@
 .hero-buttons-mobile{
     display: none;
 }
-
+.copyright-mobile{
+    display: none;
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .hero-buttons{
         display: none;
+    }
+    .copyright{
+        display: none;
+    }
+    .copyright-mobile{
+        display: block;
+        background-color: #3f9a9a;
+        color: white;
+        padding: 10px 0px;
+        /* display: flex;
+        justify-content: center; */
+    }
+    .copyright-links-mobile{
+        /* width: 60%; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-left: auto;
+    }
+    .copyright-links-mobile div{
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+    .facebook-instagram-mobile{
+        display: flex;
     }
     .hero-buttons-mobile{
         display: flex;
@@ -587,6 +625,7 @@
         margin-top: 10px;
         padding-top: 30px;
         padding-bottom: 30px;
+        width: 100%;
     }
     #hero-button2{
         margin-top: 10px;
@@ -659,6 +698,16 @@
     .get-started-outdoor{
         display: flex;
         justify-content: space-between;
+    }
+    .get-started-outdoor-mobile{
+        /* style here */
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .indoor-other-links-mobile{
+        /* style here */
+        display: flex;
+        justify-content: space-evenly;
     }
     .indoor-other-links{
         display: flex;

@@ -30,7 +30,7 @@ class PlayscapesController extends Controller
         $imagesCollection = collect($images);
 
         // Set the current page and how many items you want per page
-        $perPage = 10; // Change this value as needed
+        $perPage = 11; // Change this value as needed
         $currentPage = LengthAwarePaginator::resolveCurrentPage();
 
         // Slice the collection to get the items for the current page

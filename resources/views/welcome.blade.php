@@ -1,7 +1,7 @@
 @extends('frontend.main')
 
 @section('content')
-    <div class="cart-area">
+    {{-- <div class="cart-area">
 
         <div>
             Home
@@ -29,12 +29,12 @@
 
         </div>
 
-    </div>
+    </div> --}}
     <!-- Hero Section -->
-    <section class="hero">
+    {{-- <section class="hero">
 
         <div class="hero-image">
-            <img style="object-fit: cover;height:100%" src="{{ asset('images/heross.png') }}" alt="Playing Children">
+            <img style="object-fit: cover;height:100%"  src="{{ asset('images/heross.png') }}" alt="Playing Children">
         </div>
         <div class="hero-description">
             <div id="playful-img">
@@ -69,7 +69,81 @@
             </div>
         </div>
 
+    </section> --}}
+    {{-- <section class="landing">
+        <div class="landing-image">
+            <img style="object-fit: cover;height:100%"  src="{{ asset('images/heross.png') }}" alt="Playing Children">
+        </div>
+        <div class="landing-description">
+            <div id="playful-img">
+                <img style="width: 160px" src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
+            </div>
+            <div class="mt-5">
+                <p class="text-5xl">Play with</p>
+                <p class="text-5xl">Playscapes KE</p>
+
+            </div>
+            <div class="hero-buttons mt-10">
+                <a href="{{ route('gallery') }}" id="hero-button1">Gallery</a>
+                <a href="{{ route('contact') }}" id="hero-button2">Contact</a>
+            </div>
+            <div class="hero-buttons-mobile mt-10">
+                <a href="{{ route('gallery') }}" id="hero-button1-mobile">Gallery</a>
+                <a href="{{ route('contact') }}" id="hero-button2-mobile">Contact</a>
+            </div>
+            <div class="mt-10 pt-4 find-my-playlist">
+                <div style="margin-right: 3px">
+                    <svg width="26" height="26" stroke-width="1.0" color="#388888" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                        <path d="M21 21l-6 -6"></path>
+                    </svg>
+                </div>
+                <div>
+                    <p class="uppercase text-2xl"><a href="{{ route('gallery') }}">Find my playset</a></p>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <section class="landing">
+        <div class="landing-image">
+            <img style="object-fit: cover; width: 100%; height: 100%;" src="{{ asset('images/heross.png') }}" alt="Playing Children">
+        </div>
+        <div class="landing-description">
+            <div id="playful-img">
+                <img style="width: 160px" src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
+            </div>
+            <div class="mt-5">
+                <p class="text-5xl">Play with</p>
+                <p class="text-5xl">Playscapes KE</p>
+            </div>
+            <div class="hero-buttons mt-10">
+                <a href="{{ route('gallery') }}" id="hero-button1">Gallery</a>
+                <a href="{{ route('contact') }}" id="hero-button2">Contact</a>
+            </div>
+            <div class="hero-buttons-mobile mt-10">
+                <a href="{{ route('gallery') }}" id="hero-button1-mobile">Gallery</a>
+                <a href="{{ route('contact') }}" id="hero-button2-mobile">Contact</a>
+            </div>
+            <div class="mt-10 pt-4 find-my-playlist">
+                <div style="margin-right: 3px">
+                    <svg width="26" height="26" stroke-width="1.0" color="#388888" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                        <path d="M21 21l-6 -6"></path>
+                    </svg>
+                </div>
+                <div>
+                    <p class="uppercase text-2xl"><a href="{{ route('gallery') }}">Find my playset</a></p>
+                </div>
+            </div>
+        </div>
     </section>
+
     <div class="custom-container">
 
         <section class="steps-to-play-desktop">
