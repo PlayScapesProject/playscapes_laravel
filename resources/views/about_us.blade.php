@@ -8,7 +8,7 @@
         </div>
 
         <div class="cart-wishlist">
-            <div style="margin-right: 10px">
+            {{-- <div style="margin-right: 10px">
                 <svg height="20" width="20" stroke-width="1" color="#61bebe" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24" fill="currentColor"
                     class="icon icon-tabler icons-tabler-filled icon-tabler-shopping-cart">
@@ -25,7 +25,8 @@
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
                 </svg>
-            </div>
+            </div> --}}
+            &nbsp;
 
         </div>
 
@@ -73,7 +74,6 @@
             <div class="about-what-we-sell-image">
                 <img src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.29 AM.jpeg') }}" alt=""
                     srcset="">
-                <a href="" class="uppercase" id="view-gallery-btn-mobile">View Gallery</a>
             </div>
             <div class="about-what-we-sell-description">
                 <h2 class="text-4xl">Escape outside with us</h2>
@@ -85,6 +85,8 @@
                     imagination
                 </p>
                 <a href="" class="uppercase" id="view-gallery-btn">View Gallery</a>
+                <a href="" class="uppercase" id="view-gallery-btn-mobile">View Gallery</a>
+
             </div>
 
         </section>

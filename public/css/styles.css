@@ -835,6 +835,7 @@
         border: 2px solid #1baad890;
         border-radius: 20px;
         padding: 5px 20px;
+        width: 100%;
     }
     #view-gallery-btn-mobile:hover{
         background-color: #1baad890;
