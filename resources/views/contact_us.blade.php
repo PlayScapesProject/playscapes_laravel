@@ -33,7 +33,7 @@
     <div class="contact-us-container">
 
         <div class="contact-us-form">
-            <p style="color: #357f7e" class="text-4xl">Contact Us</p>
+            <p style="color: #1baad890" class="text-4xl">Contact Us</p>
             <form action="">
                 <div class="input-field">
                     <label for="first_name">First Name</label> <br>
@@ -65,7 +65,7 @@
             </form>
         </div>
         <div class="contact-us-description">
-            <p style="color: #357f7e" class="text-4xl">Phone / Email</p>
+            <p style="color: #1baad890" class="text-4xl">Phone / Email</p>
             <div class="contact-email-phone">
                 <p>
                     ( 254 ) 724477771

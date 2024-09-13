@@ -545,7 +545,7 @@
     }
     .copyright-mobile{
         display: block;
-        background-color: #3f9a9a;
+        background-color: #1baad890;
         color: white;
         padding: 10px 0px;
         /* display: flex;
@@ -680,7 +680,7 @@
     }
     .footer-mobile{
         display: block;
-        background-color: #388888;
+        background-color: #1baad8;
         color: white;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -780,7 +780,7 @@
 #view-gallery-btn{
     margin-top: 10px;
     padding: 5px 20px;
-    border: 2px solid #357e7f;
+    border: 2px solid #1baad890;
     border-radius: 20px;
 }
 #view-gallery-btn:hover{
@@ -788,7 +788,7 @@
     /* padding: 5px 10px; */
     /* border: 2px solid red; */
     /* border-radius: 20px; */
-    background-color: #357e7f;
+    background-color: #1baad890;
     color: white;
 }
 #view-gallery-btn-mobile{
@@ -832,12 +832,12 @@
     #view-gallery-btn-mobile{
         display: block;
         margin-top: 20px;
-        border: 2px solid #357e7f;
+        border: 2px solid #1baad890;
         border-radius: 20px;
         padding: 5px 20px;
     }
     #view-gallery-btn-mobile:hover{
-        background-color: #357e7f;
+        background-color: #1baad890;
         color: white;
     }
 
@@ -952,12 +952,12 @@
 }
 
 #submit-btn{
-    border: 2px solid #357e7f;
+    border: 2px solid #1baad890;
     padding: 5px 20px;
     margin-top: 15px;
 }
 #submit-btn:hover{
-    background-color: #357e7f;
+    background-color: #1baad890;
     color: white;
 }
 .input-field{
