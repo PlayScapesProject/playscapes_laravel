@@ -13,8 +13,10 @@
     <!-- Tailwind CSS -->
     @vite('resources/css/app.css')
     <!--Custom CSS-->
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/support.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/support.css') }}"> --}}
+    @vite('public/css/styles.css')
+    @vite('public/css/support.css')
 
 </head>
 
