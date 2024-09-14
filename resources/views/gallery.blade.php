@@ -39,7 +39,7 @@
         <div class="gallery mt-10">
             @foreach ($images as $image)
                 <div class="gallery-item">
-                    <img src="{{ asset('images/playsets/' . $image->getFilename()) }}" alt="Image">
+                    <img style="height: 300px" loading="lazy" src="{{ asset('images/playsets/' . $image->getFilename()) }}" alt="Image">
                 </div>
             @endforeach
         </div>

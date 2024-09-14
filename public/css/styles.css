@@ -573,30 +573,30 @@
     }
     #hero-button1-mobile{
         padding: 10px 30px;
-        border: 2px solid #388888;
+        border: 2px solid #1baad890;
         border-radius: 20px;
         text-transform: uppercase;
         /* margin-right: 10px; */
-        color: #388888;
+        color: black;
     }
-    #hero-button1-mobile:hover{
+    /* #hero-button1-mobile:hover{
         background-color: #388888;
         color: white;
-    }
+    } */
     #hero-button2-mobile{
         padding: 10px 30px;
-        border: 2px solid #388888;
+        border: 2px solid #1baad890;
         border-radius: 20px;
         margin-left: 20px;
         text-transform: uppercase;
         /* margin-right: 10px; */
         /* margin-top: 19px; */
-        color: #388888;
+        color: black;
     }
-    #hero-button2-mobile:hover{
+    /* #hero-button2-mobile:hover{
         background-color: #388888;
         color: white;
-    }
+    } */
     .steps {
         display: none;
     }
