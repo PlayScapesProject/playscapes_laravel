@@ -34,8 +34,8 @@
             {{-- <a href="#" class=" uppercase">How to Buy</a> --}}
             <a href="{{ route('contact') }}" class=" uppercase">contact us</a>
         </div>
-        <div>
-            <button id="menu-btn" class="block font-bold  focus:outline-none">
+        <div class="ml-3">
+            <button id="menu-btn" class="block  font-bold  focus:outline-none">
                 MENU &#9776;
             </button>
         </div>
