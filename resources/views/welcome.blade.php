@@ -138,7 +138,7 @@
                     </svg>
                 </div>
                 <div>
-                    <p class="uppercase text-2xl"><a href="{{ route('gallery') }}">Find my playset</a></p>
+                    <p style="font-size:19px" class="uppercase"><a href="{{ route('gallery') }}">Find my playset</a></p>
                 </div>
             </div>
         </div>
@@ -147,57 +147,57 @@
     <div class="custom-container">
 
         <section class="steps-to-play-desktop">
-            <h2 class="uppercase text-4xl" id="steps-title">3 Steps to play </h2>
-            <p class="mt-2">It's easy to get the perfect Playscapes playset for your family, and you never have to
+            <h2 style="font-size: 38px;color: #1baad880;" class="uppercase" id="">3 Steps to play </h2>
+            <p style="font-size: 19px;margin-bottom:30px" class="">It's easy to get the perfect Playscapes playset for your family, and you never have to
                 leave
                 the house.</p>
             <div class="steps-desktop">
                 <div class="step-1-desktop">
-                    <h3 id="step-title-desktop" class="text-3xl">1. Choose It</h3>
+                    <h3 id="" class="">1. Choose It</h3>
                     <img src="{{ asset('images/choose.png') }}" alt="Choose it">
                     <p id="step-description-desktop">Choose a playset design you prefer </p>
                 </div>
                 <div class="step-1-desktop">
-                    <h3 id="step-title-desktop" class="text-3xl">2. Buy It</h3>
+                    <h3 id="" class="">2. Buy It</h3>
                     <img src="{{ asset('images/choose.png') }}" alt="Choose it">
                     <p id="step-description-desktop">Order online or by phone</p>
                 </div>
                 <div class="step-1-desktop">
-                    <h3 id="step-title-desktop" class="text-3xl">3. Get It</h3>
+                    <h3 id="" class="">3. Get It</h3>
                     <img src="{{ asset('images/choose.png') }}" alt="Choose it">
                     <p id="step-description-desktop">We deliver countrywide to your destination</p>
                 </div>
                 <div class="step-1-desktop">
-                    <h3 id="step-title-desktop" class="text-3xl">Play!</h3>
+                    <h3 id="" class="">Play!</h3>
                     <img src="{{ asset('images/choose.png') }}" alt="Choose it">
                     <p id="step-description-desktop">Play!</p>
                 </div>
             </div>
         </section>
         <section class="steps-to-play md:hidden">
-            <h2 class="uppercase text-4xl" id="steps-title">3 Steps to play</h2>
-            <p class="mt-2">It's easy to get the perfect playset for your family, and you never have to
+            <h2 style="font-size: 38px;color: #1baad880;" class="uppercase" id="">3 Steps to play</h2>
+            <p style="font-size: 19px;margin-bottom:30px" class="">It's easy to get the perfect playset for your family, and you never have to
                 leave
                 the house.</p>
-            <div class="steps-carousel ">
+            <div class="steps-carousel">
                 <div class="carousel-container">
                     <div class="step">
-                        <h3 id="step-title" class="text-3xl">1. Choose It</h3>
+                        <h3 id="" class="">1. Choose It</h3>
                         <img src="{{ asset('images/choose.png') }}" alt="Choose it">
                         <p id="step-description">Choose a playset design you prefer</p>
                     </div>
                     <div class="step">
-                        <h3 id="step-title" class="text-3xl">2. Buy It</h3>
+                        <h3 id="" class="">2. Buy It</h3>
                         <img src="{{ asset('images/choose.png') }}" alt="Choose it">
                         <p id="step-description">Order online or by phone</p>
                     </div>
                     <div class="step">
-                        <h3 id="step-title" class="text-3xl">3. Get It</h3>
+                        <h3 id="" class="">3. Get It</h3>
                         <img src="{{ asset('images/choose.png') }}" alt="Choose it">
                         <p id="step-description">We deliver countrywide to your destination</p>
                     </div>
                     <div class="step">
-                        <h3 id="step-title" class="text-3xl">Play!</h3>
+                        <h3 id="" class="">Play!</h3>
                         <img src="{{ asset('images/choose.png') }}" alt="Choose it">
                         <p id="step-description">Play!</p>
                     </div>
@@ -215,7 +215,7 @@
         <hr>
 
         <section class="playsets-section text-center mt-10 mb-10">
-            <h3 class="text-5xl">Playscapes Playsets</h3>
+            <h3 style="color: #00000090;font-size:50px;margin:40px 0px;" class="">Playscapes Playsets</h3>
             <div class="playsets">
                 <div class="playsets-description">
                     We create <span id="redirect-link"><a href="">high-quality, safe</a></span> and
@@ -398,7 +398,7 @@
     </div>
 
     <section class="who-we-are">
-        <p class="text-3xl">
+        <p style="font-size:32px;margin-bottom:40px" class="">
             Who We Are
 
         </p>

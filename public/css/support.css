@@ -52,6 +52,16 @@
     color: #1baad890 !important;
 }
 
+.steps-desktop h3{
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: #00000090;
+}
+.steps-carousel h3{
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: #00000090;
+}
 /* On smaller screens, stack the image above the description */
 @media screen and (max-width: 768px) {
     .landing {
