@@ -32,7 +32,6 @@
 
     </div>
     <div class="contact-us-container">
-
         <div class="contact-us-form">
             <p style="color: #1baad890" class="text-4xl">Contact Us</p>
             <form action="">
@@ -91,8 +90,5 @@
 
             </div>
         </div>
-
-
-
     </div>
 @endsection
