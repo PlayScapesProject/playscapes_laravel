@@ -245,9 +245,9 @@
                     <img style="width: 100px;color:#357f7e;" src="{{ asset('images/premium.svg') }}" alt="">
 
                     <div class="premium-text space-y-5">
-                        <h3 style="color: #1baad8" class="uppercase text-3xl">Premium Products</h3>
-                        <h2>The highest quality materials, construction, and design</h2>
-                        <ul style="list-style-type: disc;margin-left:20px">
+                        <h3 style="color: #1baad8;font-size:38px;margin-top:40px;" class="uppercase">Premium Products</h3>
+                        <h2 style="font-size: 19px">The highest quality materials, construction, and design</h2>
+                        <ul style="list-style-type: disc;margin-left:20px;font-size:19px">
                             <li>
                                 Naturally splinter-free Northern White Cedar
                             </li>
@@ -260,7 +260,7 @@
                         </ul>
 
                     </div>
-                    <a style="margin-top: 5px" href="#"> <span id="premium-link">Learn more about our premium
+                    <a style="margin-top: 5px;font-size:19px;" href="#"> <span id="premium-link">Learn more about our premium
                             products</span> </a>
 
                 </div>
@@ -281,9 +281,9 @@
                 <div class="easy-to-buy-description">
                     <img style="width: 100px" src="{{ asset('images/untitled.svg') }}" alt="">
                     <div class="easy-to-buy-text space-y-5">
-                        <h3 style="color: #f2b21d" class="uppercase text-3xl">easy to buy</h3>
-                        <h2>No worries. No stress. The modern way to buy a playset.</h2>
-                        <ul style="list-style-type: disc;margin-left:20px">
+                        <h3 style="color: #f2b21d;font-size:38px;margin-top:40px;" class="uppercase">easy to buy</h3>
+                        <h2 style="font-size:19px;">No worries. No stress. The modern way to buy a playset.</h2>
+                        <ul style="list-style-type: disc;margin-left:20px;font-size:19px;">
                             <li>Buy from home — online or by phone</li>
                             <li>
                                 Customize and get exactly what you want
@@ -293,7 +293,7 @@
                             </li>
                         </ul>
                     </div>
-                    <a href="#"> <span id="premium-link">Learn more about how easy it is to buy</span> </a>
+                    <a style="font-size: 19px;" href="#"> <span id="premium-link">Learn more about how easy it is to buy</span> </a>
 
                 </div>
 
@@ -304,9 +304,9 @@
                     <img style="width: 100px" src="{{ asset('images/marketing-point-3.svg') }}" alt=""
                         srcset="">
                     <div class="good-company-text space-y-5">
-                        <h3 style="color: #98b357" class="uppercase text-3xl">good company</h3>
-                        <h2>Family-owned, looking out for kids and the environment</h2>
-                        <ul style="list-style-type: disc;margin-left:20px">
+                        <h3 style="color: #98b357;font-size:38px;margin-top:40px;" class="uppercase ">good company</h3>
+                        <h2 style="font-size:19px">Family-owned, looking out for kids and the environment</h2>
+                        <ul style="list-style-type: disc;margin-left:20px;font-size:19px">
                             <li>
                                 Earth-friendly, kid-friendly materials
                             </li>
@@ -319,7 +319,7 @@
                         </ul>
 
                     </div>
-                    <a href="#"> <span id="premium-link">Learn more about what our company is doing</span> </a>
+                    <a style="font-size: 19px" href="#"> <span id="premium-link">Learn more about what our company is doing</span> </a>
 
                 </div>
                 <div class="good-company-image">
@@ -331,20 +331,19 @@
         </section>
 
         <section class="premium-products-mobile mt-10 mb-10">
-            <h3 class="text-3xl">Why</h3>
-            <h3 class="text-3xl">Playscapes KE?</h3>
+            <h3 style="font-size:32px;margin-top:40px;margin-bottom:40px" class="">Why Playscapes KE?</h3>
             <div class="carousel-premium">
                 <div class="carousel-slide-premium premium-mobile">
                     <div class="premium-description-mobile mt-1 space-y-3">
                         <img style="width: 80px" src="{{ asset('images/premium.svg') }}" alt="">
-                        <h3 style="color: #1baad8" class="uppercase text-3xl">Premium Products</h3>
-                        <h2>The highest quality materials, construction, and design</h2>
-                        <ul style="list-style-type: disc">
+                        <h3 style="color: #1baad8;font-size:28px" class="uppercase">Premium Products</h3>
+                        <h2 style="font-size: 19px">The highest quality materials, construction, and design</h2>
+                        <ul style="list-style-type: disc;font-size:19px">
                             <li>Naturally splinter-free Northern White Cedar</li>
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>
                         </ul>
-                        {{-- <a href="#">Learn more about our premium products</a> --}}
+                        {{-- <a style="font-size: 19px" href="#">Learn more about our premium products</a> --}}
                     </div>
                     {{-- <div class="premium-image-mobile">
                 <img style="height: 500px" src="{{ asset('images/premium-img.jpg') }}" alt="">
@@ -357,9 +356,9 @@
             </div> --}}
                     <div class="easy-to-buy-description-premium mt-1  space-y-3">
                         <img style="width: 80px" src="{{ asset('images/untitled.svg') }}" alt="">
-                        <h3 style="color: #f2b21d" class="uppercase text-3xl">easy to buy</h3>
-                        <h2>No worries. No stress. The modern way to buy a playset.</h2>
-                        <ul style="list-style-type: disc">
+                        <h3 style="color: #f2b21d;font-size:28px" class="uppercase">easy to buy</h3>
+                        <h2 style="font-size: 19px">No worries. No stress. The modern way to buy a playset.</h2>
+                        <ul style="list-style-type: disc;font-size:19px">
                             <li>Naturally splinter-free Northern White Cedar</li>
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>
@@ -371,9 +370,9 @@
                 <div class="carousel-slide-premium good-company-mobile">
                     <div class="good-company-description-mobile mt-1  space-y-3">
                         <img style="width: 80px" src="{{ asset('images/marketing-point-3.svg') }}" alt="">
-                        <h3 style="color: #98b357" class="uppercase text-3xl">good company</h3>
-                        <h2>Family-owned, looking out for kids and the environment</h2>
-                        <ul style="list-style-type: disc">
+                        <h3 style="color: #98b357;font-size:28px" class="uppercase ">good company</h3>
+                        <h2 style="font-size:19px">Family-owned, looking out for kids and the environment</h2>
+                        <ul style="list-style-type: disc;font-size:19px">
                             <li>Naturally splinter-free Northern White Cedar</li>
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>
@@ -406,7 +405,7 @@
             <img  src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
         </div>
         <div>
-            <p class="">
+            <p style="font-size:19px;margin-top:30px;margin-bottom:30px" class="">
                 From outdoor <span id="premium-link">swing sets and playsets</span> to <span id="premium-link">indoor
                     playsets</span>, we design and manufacture the most beautiful,
                 environmentally responsible products in the world for active play.
