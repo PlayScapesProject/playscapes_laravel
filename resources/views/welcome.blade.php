@@ -343,17 +343,12 @@
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>
                         </ul>
-                        {{-- <a style="font-size: 19px" href="#">Learn more about our premium products</a> --}}
                     </div>
-                    {{-- <div class="premium-image-mobile">
-                <img style="height: 500px" src="{{ asset('images/premium-img.jpg') }}" alt="">
-            </div> --}}
+
                 </div>
 
                 <div class="carousel-slide-premium easy-to-buy-mobile">
-                    {{-- <div class="easy-to-buy-image-premium">
-                <img style="height: 500px" src="{{ asset('images/easy-to-buy.jpg') }}" alt="">
-            </div> --}}
+
                     <div class="easy-to-buy-description-premium mt-1  space-y-3">
                         <img style="width: 80px" src="{{ asset('images/untitled.svg') }}" alt="">
                         <h3 style="color: #f2b21d;font-size:28px" class="uppercase">easy to buy</h3>
@@ -363,7 +358,6 @@
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>
                         </ul>
-                        {{-- <a href="#">Learn more about our premium products</a> --}}
                     </div>
                 </div>
 
@@ -377,11 +371,8 @@
                             <li>Unwavering attention to detail</li>
                             <li>The most beautiful playsets you can buy</li>
                         </ul>
-                        {{-- <a href="#">Learn more</a> --}}
                     </div>
-                    {{-- <div class="good-company-image-premium">
-                <img style="height: 500px" src="{{ asset('images/goodcompany.jpg') }}" alt="">
-            </div> --}}
+
                 </div>
             </div>
 
