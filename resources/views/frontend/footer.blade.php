@@ -1,4 +1,4 @@
-<footer class="footer-desktop">
+<footer style="font-size: 19px" class="footer-desktop">
     <div class="footer-desktop-links">
         <div>
             <p class="text-2xl">
@@ -80,7 +80,7 @@
     </div>
 </footer>
 {{-- Footer Mobile --}}
-<footer class="footer-mobile">
+<footer style="font-size: 19px" class="footer-mobile">
     <div class="footer-mobile-links">
         <div>
             <p class="text-2xl">
@@ -165,7 +165,7 @@
     </div>
 </footer>
 {{-- End Footer Mobile --}}
-<section class="copyright">
+<section style="font-size: 19px" class="copyright">
     <div class="copyright-links">
         <div>
             <p>Copyright &copy; PlayScapes 2024 </p>
@@ -201,7 +201,7 @@
         &nbsp;
     </div>
 </section>
-<section class="copyright-mobile">
+<section style="font-size:19px" class="copyright-mobile">
     <div class="copyright-links-mobile">
         <div>
             <p>Copyright &copy; PlayScapes 2024 </p>

@@ -39,8 +39,8 @@
                 <img src="{{ asset('images/heross.png') }}" alt="Playing Children">
             </div>
             <div class="hero-description-about-us">
-                <h1 class="text-4xl">Who we are</h1>
-                <p class="mt-5 her">
+                <h1 style="font-size: 50px; margin-bottom:15px" class="">Who we are</h1>
+                <p style="font-size:19px" class="">
                     Welcome to Playscape Ke, where adventure meets imagination! We believe that the best memories are made
                     under the open sky, with laughter in the air and dirt on your shoes. Our mission is simple: to inspire
                     families to unplug, step outside, and rediscover the joy of outdoor play.
@@ -54,8 +54,8 @@
 
         <section class="about-what-we-sell">
             <div class="about-what-we-sell-description">
-                <h2 class="text-4xl">What we build</h2>
-                <p class="">
+                <h2 style="font-size: 50px; margin-botttom:15px" class="">What we build</h2>
+                <p style="font-size: 19px" class="">
                     At Playscapes ke, we’re passionate about creating high-quality, safe, and fun play equipment that
                     transforms any outdoor space into an adventure zone. With durable designs and endless play
                     possibilities, we help you build lasting memories right in your backyard. Choose us to bring
@@ -76,8 +76,8 @@
                     srcset="">
             </div>
             <div class="about-what-we-sell-description">
-                <h2 class="text-4xl">Escape outside with us</h2>
-                <p class="">
+                <h2 style="font-size: 50px;margin-bottom:15px" class="">Escape outside with us</h2>
+                <p style="font-size: 19px" class="">
                     Whether you're building a backyard wonderland or creating a community hub, our play equipment is
                     designed to
                     spark creativity, encourage exaploration, and bring people together. With every swing, slide, and spin,
