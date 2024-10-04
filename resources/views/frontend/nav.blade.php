@@ -63,7 +63,7 @@
                 </button>
             </div>
         </div>
-        <div style="font-size: 19px" class="mt-4">
+        <div style="" class="mt-4 uppercase">
             <a href="{{ route('about') }}" class="block  mb-4">About us</a>
             <a href="{{ route('gallery') }}" class="block  mb-4">Gallery</a>
             <a href="{{ route('contact') }}" class="block  mb-4">Contact Us</a>

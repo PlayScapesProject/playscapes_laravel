@@ -48,8 +48,8 @@
 .navigatio-menu{
     color: #1baad890;
 }
-#menu-overlay p{
-    color: #1baad890 !important;
+#menu-overlay {
+    color: #1baad8 !important;
 }
 
 .steps-desktop h3{
