@@ -226,7 +226,7 @@
         <div class="premium">
 
             <div class="premium-description">
-                <img src="{{ asset('images/premium.svg') }}" alt="">
+                <img src="{{ asset('images/premium1.svg') }}" alt="">
 
                 <h3 class="uppercase text-3xl">Premium Products</h3>
                 <h2>The highest quality materials, construction, and design </h2>
@@ -268,7 +268,7 @@
         </div>
         <div class="good-company">
             <div class="good-company-description">
-                <img src="{{ asset('images/marketing-point-3.svg') }}" alt="" srcset="">
+                <img src="{{ asset('images/marketing-point-4.svg') }}" alt="" srcset="">
                 <h3 class="uppercase text-3xl">good company</h3>
                 <h2>Family-owned, looking out for kids and the environment</h2>
 
@@ -283,7 +283,7 @@
 
     {{-- premium-products-mobile mt-10 mb-10 --}}
 
-   
+
 
 
     <footer>

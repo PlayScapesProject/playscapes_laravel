@@ -109,7 +109,8 @@
     </section> --}}
     <section class="landing">
         <div class="landing-image">
-            <img style="object-fit: cover; width: 100%; height: 100%;" src="{{ asset('images/heross.png') }}" alt="Playing Children">
+            <img id="landing-image" style="object-fit: cover; width: 100%;" src="{{ asset('images/playsetshd/image-08.jpg') }}"
+                alt="Playing Children">
         </div>
         <div class="landing-description">
             <div id="playful-img">
@@ -147,8 +148,9 @@
     <div class="custom-container">
 
         <section class="steps-to-play-desktop">
-            <h2 style="font-size: 38px;color: #4a674180;" class="uppercase" id="">3 Steps to play </h2>
-            <p style="font-size: 19px;margin-bottom:30px" class="">It's easy to get the perfect Playscapes playset for your family, and you never have to
+            <h2 style="font-size: 38px;color: #4a674199;" class="uppercase" id="">3 Steps to play </h2>
+            <p style="font-size: 19px;margin-bottom:30px" class="">It's easy to get the perfect Playscapes playset for
+                your family, and you never have to
                 leave
                 the house.</p>
             <div class="steps-desktop">
@@ -176,7 +178,8 @@
         </section>
         <section class="steps-to-play md:hidden">
             <h2 style="font-size: 38px;color: #4a674180;" class="uppercase" id="">3 Steps to play</h2>
-            <p style="font-size: 19px;margin-bottom:30px" class="">It's easy to get the perfect playset for your family, and you never have to
+            <p style="font-size: 19px;margin-bottom:30px" class="">It's easy to get the perfect playset for your
+                family, and you never have to
                 leave
                 the house.</p>
             <div class="steps-carousel">
@@ -220,7 +223,8 @@
                 <div class="playsets-description">
                     We create <span id="redirect-link"><a href="">high-quality, safe</a></span> and
                     <span id="redirect-link"><a href="">fun</a></span> play equipment to transform any outdoor
-                    space into an adventure zone. So what are you waiting for? Escape outside with us, and let the adventures begin!
+                    space into an adventure zone. So what are you waiting for? Escape outside with us, and let the
+                    adventures begin!
                 </div>
                 <div class="playsets-image">
                     <img id="playsets-img" src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
@@ -242,32 +246,36 @@
             <div class="premium">
 
                 <div class="premium-description">
-                    <img style="width: 100px;color:#357f7e;" src="{{ asset('images/premium.svg') }}" alt="">
+                    <img style="width: 100px;color:#357f7e;" src="{{ asset('images/premium1.svg') }}" alt="">
 
                     <div class="premium-text space-y-5">
                         <h3 style="color: #4a6741;font-size:38px;margin-top:40px;" class="uppercase">Premium Products</h3>
                         <h2 style="font-size: 19px">The highest quality materials, construction, and design</h2>
                         <ul style="list-style-type: disc;margin-left:20px;font-size:19px">
                             <li>
-                                Naturally splinter-free Northern White Cedar
+                                Pressure treated poles
+                            </li>
+                            <li>
+                                Mix of steel and wood
                             </li>
                             <li>
                                 Unwavering attention to detail
                             </li>
                             <li>
-                                The most beautiful playsets you can buy
+                                The Safe beautiful enchanting playsets you can buy
                             </li>
                         </ul>
 
                     </div>
-                    <a style="margin-top: 5px;font-size:19px;" href="#"> <span id="premium-link">Learn more about our premium
+                    <a style="margin-top: 5px;font-size:19px;" href="#"> <span id="premium-link">Learn more about
+                            our premium
                             products</span> </a>
 
                 </div>
                 <div class="premium-image">
 
-                    <img style="height: 500px" src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.40 AM.jpeg') }}" alt=""
-                        srcset="">
+                    <img style="height: 500px" src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.40 AM.jpeg') }}"
+                        alt="" srcset="">
 
                 </div>
 
@@ -276,7 +284,8 @@
             <div class="easy-to-buy">
 
                 <div class="easy-to-buy-image">
-                    <img style="height: 500px" src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.42 AM (1).jpeg') }}" alt="">
+                    <img style="height: 500px"
+                        src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.42 AM (1).jpeg') }}" alt="">
                 </div>
                 <div class="easy-to-buy-description">
                     <img style="width: 100px" src="{{ asset('images/untitled.svg') }}" alt="">
@@ -293,7 +302,8 @@
                             </li>
                         </ul>
                     </div>
-                    <a style="font-size: 19px;" href="#"> <span id="premium-link">Learn more about how easy it is to buy</span> </a>
+                    <a style="font-size: 19px;" href="#"> <span id="premium-link">Learn more about how easy it is
+                            to buy</span> </a>
 
                 </div>
 
@@ -301,29 +311,25 @@
             <hr>
             <div class="good-company">
                 <div class="good-company-description">
-                    <img style="width: 100px" src="{{ asset('images/marketing-point-3.svg') }}" alt=""
+                    <img style="width: 100px" src="{{ asset('images/marketing-point-4.svg') }}" alt=""
                         srcset="">
                     <div class="good-company-text space-y-5">
                         <h3 style="color: #36494F;font-size:38px;margin-top:40px;" class="uppercase ">good company</h3>
                         <h2 style="font-size:19px">Family-owned, looking out for kids and the environment</h2>
                         <ul style="list-style-type: disc;margin-left:20px;font-size:19px">
-                            <li>
-                                Earth-friendly, kid-friendly materials
-                            </li>
-                            <li>
-                                10% to kids and the environment
-                            </li>
-                            <li>
-                                Made in Maine
-                            </li>
+                            <li>Family-owned, looking out for kids and the environment</li>
+                            <li>Earth-friendly, kid-friendly materials</li>
+                            <li>Made in Kenya</li>
                         </ul>
 
                     </div>
-                    <a style="font-size: 19px" href="#"> <span id="premium-link">Learn more about what our company is doing</span> </a>
+                    <a style="font-size: 19px" href="#"> <span id="premium-link">Learn more about what our company
+                            is doing</span> </a>
 
                 </div>
                 <div class="good-company-image">
-                    <img style="height: 500px" src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.40 AM (1).jpeg') }}" alt="">
+                    <img style="height: 500px"
+                        src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.40 AM (1).jpeg') }}" alt="">
 
                 </div>
 
@@ -335,13 +341,22 @@
             <div class="carousel-premium">
                 <div class="carousel-slide-premium premium-mobile">
                     <div class="premium-description-mobile mt-1 space-y-3">
-                        <img style="width: 80px" src="{{ asset('images/premium.svg') }}" alt="">
+                        <img style="width: 80px" src="{{ asset('images/premium1.svg') }}" alt="">
                         <h3 style="color: #4a6741;font-size:28px" class="uppercase">Premium Products</h3>
                         <h2 style="font-size: 19px">The highest quality materials, construction, and design</h2>
                         <ul style="list-style-type: disc;font-size:19px">
-                            <li>Naturally splinter-free Northern White Cedar</li>
-                            <li>Unwavering attention to detail</li>
-                            <li>The most beautiful playsets you can buy</li>
+                            <li>
+                                Pressure treated poles
+                            </li>
+                            <li>
+                                Mix of steel and wood
+                            </li>
+                            <li>
+                                Unwavering attention to detail
+                            </li>
+                            <li>
+                                The Safe beautiful enchanting playsets you can buy
+                            </li>
                         </ul>
                     </div>
 
@@ -363,13 +378,13 @@
 
                 <div class="carousel-slide-premium good-company-mobile">
                     <div class="good-company-description-mobile mt-1  space-y-3">
-                        <img style="width: 80px" src="{{ asset('images/marketing-point-3.svg') }}" alt="">
+                        <img style="width: 80px" src="{{ asset('images/marketing-point-4.svg') }}" alt="">
                         <h3 style="color: #36494F;font-size:28px" class="uppercase ">good company</h3>
                         <h2 style="font-size:19px">Family-owned, looking out for kids and the environment</h2>
                         <ul style="list-style-type: disc;font-size:19px">
-                            <li>Naturally splinter-free Northern White Cedar</li>
-                            <li>Unwavering attention to detail</li>
-                            <li>The most beautiful playsets you can buy</li>
+                            <li>Family-owned, looking out for kids and the environment</li>
+                            <li>Earth-friendly, kid-friendly materials</li>
+                            <li>Made in Kenya</li>
                         </ul>
                     </div>
 
@@ -393,7 +408,7 @@
 
         </p>
         <div class="who-we-are-img">
-            <img  src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
+            <img src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
         </div>
         <div>
             <p style="font-size:19px;margin-top:30px;margin-bottom:30px" class="">

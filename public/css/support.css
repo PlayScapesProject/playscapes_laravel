@@ -3,11 +3,14 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    background-color: #4a674150;
+    background-color: #4a674199;
 }
 
 .landing-image {
     flex-basis: 67%;
+}
+#landing-image{
+    height: 80vh;
 }
 
 .landing-description {
@@ -21,7 +24,7 @@
 
 }
 .navigatio-menu{
-    color: #4a674190;
+    color: #4a6741;
 }
 #menu-overlay {
     color: #4a6741 !important;
@@ -42,6 +45,9 @@
     .landing {
         flex-direction: column;
         height: 90vh;
+    }
+    #landing-image{
+        height: 100%;
     }
 
     .landing-image {
@@ -75,7 +81,7 @@ Green can be used for highlights or subtle design elements to add balance to the
 /*
 
 •	 Forest Green #4a6741
-•	Red #EE4B2B, 
+•	Red #EE4B2B,
 •	Charcoal Grey #36494F
 
 
