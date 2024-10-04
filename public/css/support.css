@@ -1,34 +1,9 @@
-/* .landing{
-    height: 80vh;
-    background-color: #1baad890 ;
-    display: flex;
-    width: 100%;
-}
-.landing-image{
-    width: 80%;
-}
-.landing-description{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media only screen and (max-width: 768px) {
-    .landing{
-        flex-direction: column;
-    }
-  } */
 .landing {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    background-color: #1baad850;
-    /* height: 90vh; */
-    /* padding: 20px; */
+    background-color: #4a674150;
 }
 
 .landing-image {
@@ -46,10 +21,10 @@
 
 }
 .navigatio-menu{
-    color: #1baad890;
+    color: #4a674190;
 }
 #menu-overlay {
-    color: #1baad8 !important;
+    color: #4a6741 !important;
 }
 
 .steps-desktop h3{
@@ -85,14 +60,23 @@
 
 /*
 
-Primary Color: #1baad8 (a vibrant blue)
+Primary Color: #4a6741 (a vibrant blue)
 
 This can be a dominant color for the brand, as blue often conveys trust and professionalism.
-Secondary Color: #f2b21d (a warm yellow)
+Secondary Color: #EE4B2B (a warm yellow)
 
 Yellow complements the blue nicely and can be used for accents or call-to-action buttons.
-Tertiary Color: #98b357 (a calming green)
+Tertiary Color: #36494F (a calming green)
 
 Green can be used for highlights or subtle design elements to add balance to the palette.
+
+*/
+
+/*
+
+•	 Forest Green #4a6741
+•	Red #EE4B2B, 
+•	Charcoal Grey #36494F
+
 
 */

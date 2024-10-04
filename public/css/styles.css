@@ -18,9 +18,9 @@
 }
 .hero{
     display: flex;
-    background-color:#1baad899;
+    background-color:#4a674199;
     /* opacity: 0.8; */
-    color: #1baad8;
+    color: #4a6741;
 
      /* #61bebe; */
 }
@@ -43,7 +43,7 @@
     /* width: 40%; */
     /* opacity: 0.99; */
     /* width: 100%; */
-    /* background-color: #1baad899; */
+    /* background-color: #4a674199; */
 }
 .hero-about-us{
     display: flex;
@@ -64,7 +64,7 @@
 
 #hero-button1{
     padding: 12px 30px;
-    border: 1px solid #1baad890;
+    border: 1px solid #4a674190;
     border-radius: 20px;
     text-transform: uppercase;
     margin-right: 30px;
@@ -72,18 +72,18 @@
 
 }
 /* #hero-button1:hover{
-    background-color: #1baad8;
+    background-color: #4a6741;
     background-color: transparent;
     color: white;
 } */
 /* #hero-button2:hover{
-    background-color: #1baad8;
+    background-color: #4a6741;
     background-color: transparent;
     color: white;
 } */
 #hero-button2{
     padding: 12px 30px;
-    border: 1px solid #1baad890;
+    border: 1px solid #4a674190;
     border-radius: 20px;
     text-transform: uppercase;
     color: black;
@@ -139,11 +139,11 @@
     margin-top: 35px;
 }
 #redirect-link {
-    color: #1baad8;
+    color: #4a6741;
 
 }
 #premium-link{
-    color: #1baad8;
+    color: #4a6741;
     /* margin-top: 8px; */
 }
 #playsets-img{
@@ -169,13 +169,13 @@
     display: none;
 }
 #premium{
-    color: #1baad8;
+    color: #4a6741;
 }
 #easy{
-    color: #f2b21d;
+    color: #EE4B2B;
 }
 #good{
-    color: #98b357;
+    color: #36494F;
 }
 .premium{
     /* display: flex;
@@ -301,7 +301,7 @@
     text-align: center;
 }
 .footer-desktop{
-    background-color: #1baad8;
+    background-color: #4a6741;
     /* background-color: #388888; */
     color: white;
 }
@@ -399,7 +399,7 @@
 .copyright{
     display: flex;
     justify-content: space-between;
-    background-color: #1baad890;
+    background-color: #4a674190;
     /* opacity: 0.8; */
     padding: 20px 10px;
     color: white;
@@ -440,7 +440,7 @@
 
 #steps-title {
     /* color: #40C0CB; */
-    color: #1baad880;
+    color: #4a674180;
 }
 
 #step-title {
@@ -552,7 +552,7 @@
     }
     .copyright-mobile{
         display: block;
-        background-color: #1baad890;
+        background-color: #4a674190;
         color: white;
         padding: 10px 0px;
         /* display: flex;
@@ -580,7 +580,7 @@
     }
     #hero-button1-mobile{
         padding: 12px 30px;
-        border: 1px solid #1baad890;
+        border: 1px solid #4a674190;
         border-radius: 20px;
         text-transform: uppercase;
         /* margin-right: 10px; */
@@ -592,7 +592,7 @@
     } */
     #hero-button2-mobile{
         padding: 12px 30px;
-        border: 1px solid #1baad890;
+        border: 1px solid #4a674190;
         border-radius: 20px;
         margin-left: 30px;
         text-transform: uppercase;
@@ -687,7 +687,7 @@
     }
     .footer-mobile{
         display: block;
-        background-color: #1baad8;
+        background-color: #4a6741;
         color: white;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -788,7 +788,7 @@
 #view-gallery-btn{
     margin-top: 10px;
     padding: 5px 20px;
-    border: 2px solid #1baad890;
+    border: 2px solid #4a674190;
     border-radius: 20px;
 }
 #view-gallery-btn:hover{
@@ -796,7 +796,7 @@
     /* padding: 5px 10px; */
     /* border: 2px solid red; */
     /* border-radius: 20px; */
-    background-color: #1baad890;
+    background-color: #4a674190;
     color: white;
 }
 #view-gallery-btn-mobile{
@@ -840,13 +840,13 @@
     #view-gallery-btn-mobile{
         display: block;
         margin-top: 20px;
-        border: 2px solid #1baad890;
+        border: 2px solid #4a674190;
         border-radius: 20px;
         padding: 5px 20px;
         width: 100%;
     }
     #view-gallery-btn-mobile:hover{
-        background-color: #1baad890;
+        background-color: #4a674190;
         color: white;
     }
 
@@ -961,12 +961,12 @@
 }
 
 #submit-btn{
-    border: 2px solid #1baad890;
+    border: 2px solid #4a674190;
     padding: 5px 20px;
     margin-top: 15px;
 }
 #submit-btn:hover{
-    background-color: #1baad890;
+    background-color: #4a674190;
     color: white;
 }
 .input-field{
