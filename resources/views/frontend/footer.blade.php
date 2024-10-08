@@ -16,26 +16,6 @@
             <p>
                 ( 245 ) 7244 77 77 1
             </p>
-            {{--
-
-             <div class="contact-hours">
-                <p class="text-4xl">Hours</p>
-
-                <p>9:00 A.M - 5:00 P.M Mon - Sat</p>
-                <p>Closed - Sun</p>
-
-            </div>
-            <div class="contact-hours">
-                <p class="text-4xl">Address</p>
-
-                <p>P.O Box 345 00605 Uthiru </p>
-
-            </div>
-
-            <p>9:00 A.M - 5:00 P.M Mon - Sat</p>
-                <p>Closed - Sun</p>
-
-            --}}
 
             <br>
             <p>
@@ -48,41 +28,41 @@
         <div>
             <p class="text-xl uppercase">Get Started</p>
             <br>
-            <p>Find My Playset</p>
+            {{-- <p>Find My Playset</p>
             <p>Request Catalog</p>
             <p>Contact Us</p>
             <p>Wishlist</p>
-            <p>Product FAQ</p>
-            {{-- <p>Blog</p>
-            <p>Financing</p> --}}
+            <p>Product FAQ</p> --}}
+            <p>FAQs</p>
+            <p>Warranty Card</p>
+            <p>Care for Equipment</p>
+            <a href="{{ route('gallery') }}"><p>Gallery</p></a>
+
         </div>
         <div>
             <p class="text-xl uppercase">Outdooor</p>
             <br>
-            <p>Rustic</p>
+            {{-- <p>Rustic</p>
             <p>Classic</p>
             <p>Architectural</p>
             <p>Toys & Furniture</p>
-            <p>Gift Certificates</p>
+            <p>Gift Certificates</p> --}}
+            <a href="" class=""><p>Outdoor Projects</p></a>
 
         </div>
         <div>
             <p class="text-xl uppercase">Indoor</p>
             <br>
-            <p>Playsets</p>
-            <p>Toys & Furniture</p>
+            {{-- <p>Playsets</p>
+            <p>Toys & Furniture</p> --}}
+            <a href="" class=""><p>Indoor Projects</p></a>
         </div>
         <div>
-            <p class="text-xl uppercase">Other Links</p>
+            <p class="text-xl uppercase">Commercial</p>
             <br>
-            <p>Accessories</p>
-            <p>Service & Support</p>
-            {{-- <p>Press & Media</p>
-            <p>Design Your Own</p>
-            <p>Navigator</p>
-            <p>Careers</p>
-            <p>Waranty</p>
-            <p>My Account</p> --}}
+            {{-- <p>Accessories</p>
+            <p>Service & Support</p> --}}
+            <a href="" class=""><p>Commercial</p></a>
         </div>
     </div>
     <hr>
@@ -91,7 +71,9 @@
         <div class="search-box">
             <input style="outline:none" type="text">
             <div class="divider"></div>
-            <button class="" id="clear"><p class="uppercase">clear</p></button>
+            <button class="" id="clear">
+                <p class="uppercase">clear</p>
+            </button>
         </div>
     </div>
 </footer>
@@ -115,26 +97,7 @@
                 (254) 724477771
             </p>
 
-            {{--
 
-             <div class="contact-hours">
-                <p class="text-4xl">Hours</p>
-
-                <p>9:00 A.M - 5:00 P.M Mon - Sat</p>
-                <p>Closed - Sun</p>
-
-            </div>
-            <div class="contact-hours">
-                <p class="text-4xl">Address</p>
-
-                <p>P.O Box 345 00605 Uthiru </p>
-
-            </div>
-
-            <p>9:00 A.M - 5:00 P.M Mon - Sat</p>
-                <p>Closed - Sun</p>
-
-            --}}
 
             <br>
             <p>
@@ -148,22 +111,25 @@
             <div>
                 <p class="text-xl uppercase">Get Started</p>
                 <br>
-                <p>Find My Playset</p>
+                {{-- <p>Find My Playset</p>
                 <p>Request Catalog</p>
                 <p>Contact Us</p>
                 <p>Wishlist</p>
-                <p>Product FAQ</p>
-                {{-- <p>Blog</p>
-                <p>Financing</p> --}}
+                <p>Product FAQ</p> --}}
+                <p>FAQs</p>
+                <p>Warranty Card</p>
+                <p>Care for Equipment</p>
+
             </div>
             <div>
                 <p class="text-xl uppercase">Outdooor</p>
                 <br>
-                <p>Rustic</p>
+                {{-- <p>Rustic</p>
                 <p>Classic</p>
                 <p>Architectural</p>
                 <p>Toys & Furniture</p>
-                <p>Gift Certificates</p>
+                <p>Gift Certificates</p> --}}
+                <a href="" class=""><p>Outdoor Projects</p></a>
 
             </div>
         </div>
@@ -171,20 +137,23 @@
             <div>
                 <p class="text-xl uppercase">Indoor</p>
                 <br>
-                <p>Playsets</p>
-                <p>Toys & Furniture</p>
+                {{-- <p>Playsets</p>
+                <p>Toys & Furniture</p> --}}
+                <a href="" class=""><p>Indoor Projects</p></a>
             </div>
-            <div>
+            {{-- <div>
                 <p class="text-xl uppercase">Other Links</p>
                 <br>
                 <p>Accessories</p>
                 <p>Service & Support</p>
-                {{-- <p>Press & Media</p> --}}
-                {{-- <p>Design Your Own</p>
-                <p>Navigator</p>
-                <p>Careers</p>
-                <p>Waranty</p>
-                <p>My Account</p> --}}
+
+            </div> --}}
+            <div>
+                <p class="text-xl uppercase">Commercial</p>
+                <br>
+                {{-- <p>Accessories</p>
+                <p>Service & Support</p> --}}
+                <a href="" class=""><p>Commercial</p></a>
             </div>
         </div>
 
@@ -194,7 +163,6 @@
         <p class="uppercase text-center text-2xl mb-4">product search</p>
         <div class="search-box-mobile">
             <input style="outline:none" type="text">
-            {{-- <div class="divider"></div> --}}
             <button id="clear-mobile">CLEAR</button>
         </div>
     </div>
@@ -210,24 +178,28 @@
         </div>
         <div class="facebook-instagram">
             <div>
-                <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24"
-                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                </svg>
+                <a target="_blank" href="https://www.facebook.com/playscapes">
+                    <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                    </svg>
+                </a>
             </div>
             <div>
-                <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24"
-                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
-                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
-                    <path d="M16.5 7.5l0 .01"></path>
-                </svg>
+                <a target="_blank" href="https://www.instagram.com/playscapes">
+                    <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                        <path d="M16.5 7.5l0 .01"></path>
+                    </svg>
+                </a>
             </div>
 
         </div>
@@ -246,19 +218,17 @@
         </div>
         <div class="facebook-instagram-mobile">
             <div>
-                <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24"
-                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
                 </svg>
             </div>
             <div>
-                <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24"
-                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                <svg color="#ffffff" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
                     <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>

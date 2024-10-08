@@ -5,6 +5,7 @@
             <!-- Outdoor Dropdown -->
             <div class="group inline-block relative">
                 <a href="{{ route('about') }}" class=" uppercase">About us</a>
+                
                 {{-- <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-md">
                     <ul class="py-2">
                         <li><a href="#" class="block px-4 py-2  hover:bg-gray-200">All
@@ -17,6 +18,10 @@
                 </div> --}}
             </div>
             {{-- Indoor Dropdown --}}
+            
+            <a href="{{ route('about') }}" class="block uppercase mb-4">Outdoor</a>
+            <a href="{{ route('about') }}" class="block uppercase mb-4">Indoor</a>
+            <a href="{{ route('about') }}" class="block uppercase mb-4">Commercial</a>
             <div class="group inline-block relative">
                 <a href="{{ route('gallery') }}" class=" uppercase">Gallery</a>
                 {{-- <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-md">
@@ -65,6 +70,9 @@
         </div>
         <div style="" class="mt-4 uppercase">
             <a href="{{ route('about') }}" class="block  mb-4">About us</a>
+            <a href="{{ route('about') }}" class="block  mb-4">Outdoor</a>
+            <a href="{{ route('about') }}" class="block  mb-4">Indoor</a>
+            <a href="{{ route('about') }}" class="block  mb-4">Commercial</a>
             <a href="{{ route('gallery') }}" class="block  mb-4">Gallery</a>
             <a href="{{ route('contact') }}" class="block  mb-4">Contact Us</a>
         </div>
