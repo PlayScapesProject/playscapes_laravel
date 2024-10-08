@@ -5,28 +5,44 @@
                 Playscapes
             </p>
             <br>
+
             <p>
-                400 Nairobi Kenya
+                P.O Box 345 00605
             </p>
             <p>
-                PO BOX 400
-            </p>
-            <p>
-                Nairobi Kenya
+                Uthiru
             </p>
             <br>
             <p>
-                (254) 79200 9556
+                ( 245 ) 7244 77 77 1
             </p>
-            <p>
-                (254) 79200 9556
-            </p>
+            {{--
+
+             <div class="contact-hours">
+                <p class="text-4xl">Hours</p>
+
+                <p>9:00 A.M - 5:00 P.M Mon - Sat</p>
+                <p>Closed - Sun</p>
+
+            </div>
+            <div class="contact-hours">
+                <p class="text-4xl">Address</p>
+
+                <p>P.O Box 345 00605 Uthiru </p>
+
+            </div>
+
+            <p>9:00 A.M - 5:00 P.M Mon - Sat</p>
+                <p>Closed - Sun</p>
+
+            --}}
+
             <br>
             <p>
-                8:00 a.m - 4:00pm(EAT) Mon-Fri
+                9:00 A.M - 5:00 P.M Mon - Sat
             </p>
             <p>
-                9:00 a.m - 5:00pm(EAT) Sat-Sun
+                Closed - Sun
             </p>
         </div>
         <div>
@@ -87,26 +103,45 @@
                 Playscapes
             </p>
             <br>
+
             <p>
-                400 Nairobi Kenya
+                P.O Box 345 00605
             </p>
             <p>
-                PO BOX 400
-            </p>
-            <p>
-                Nairobi Kenya
+                Uthiru
             </p>
             <br>
             <p>
                 (254) 724477771
             </p>
 
+            {{--
+
+             <div class="contact-hours">
+                <p class="text-4xl">Hours</p>
+
+                <p>9:00 A.M - 5:00 P.M Mon - Sat</p>
+                <p>Closed - Sun</p>
+
+            </div>
+            <div class="contact-hours">
+                <p class="text-4xl">Address</p>
+
+                <p>P.O Box 345 00605 Uthiru </p>
+
+            </div>
+
+            <p>9:00 A.M - 5:00 P.M Mon - Sat</p>
+                <p>Closed - Sun</p>
+
+            --}}
+
             <br>
             <p>
-                8:00 a.m - 4:00pm(EAT) Mon-Fri
+                9:00 A.M - 5:00 P.M Mon - Sat
             </p>
             <p>
-                9:00 a.m - 5:00pm(EAT) Sat-Sun
+                Closed - Sun
             </p>
         </div>
         <div class="get-started-outdoor-mobile">

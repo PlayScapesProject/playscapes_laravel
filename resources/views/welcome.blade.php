@@ -114,7 +114,7 @@
         </div>
         <div class="landing-description">
             <div id="playful-img">
-                <img style="width: 160px" src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
+                <img style="width: 160px" src="{{ asset('images/loko-nobg.png') }}" alt="" srcset="">
             </div>
             <div class="mt-5">
                 <p class="text-5xl">Play with</p>
@@ -227,7 +227,7 @@
                     adventures begin!
                 </div>
                 <div class="playsets-image">
-                    <img id="playsets-img" src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
+                    <img style="height: 150px" id="playsets-img" src="{{ asset('images/loko-nobg.png') }}" alt="" srcset="">
 
                 </div>
             </div>
@@ -408,7 +408,7 @@
 
         </p>
         <div class="who-we-are-img">
-            <img src="{{ asset('images/triptych.svg') }}" alt="" srcset="">
+            <img style="width: 50%;margin-left:auto;margin-right:auto" src="{{ asset('images/loko-nobg.png') }}" alt="" srcset="">
         </div>
         <div>
             <p style="font-size:19px;margin-top:30px;margin-bottom:30px" class="">

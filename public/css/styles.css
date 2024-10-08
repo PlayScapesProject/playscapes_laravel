@@ -976,6 +976,15 @@
     margin: 10px 0px;
     padding: 20px 0px;
 }
+.contact-socials{
+    display: flex;
+    margin: 10px 0px;
+    padding: 20px 0px;
+}
+.contact-socials div{
+    margin-right: 14px;
+
+}
 .contact-hours{
     margin: 10px 0px;
     padding: 20px 0px;

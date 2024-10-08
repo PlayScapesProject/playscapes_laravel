@@ -78,11 +78,10 @@
             <div class="about-what-we-sell-description">
                 <h2 style="font-size: 50px;margin-bottom:15px" class="">Escape outside with us</h2>
                 <p style="font-size: 19px" class="">
-                    Whether you're building a backyard wonderland or creating a community hub, our play equipment is
-                    designed to
-                    spark creativity, encourage exaploration, and bring people together. With every swing, slide, and spin,
-                    we aim to help kids (and the young at heart) escape into a world where the only limit is their
-                    imagination
+                    Whether you're transforming a backyard into a magical space or developing a community gathering spot,
+                    our play equipment is crafted to inspire creativity, promote exploration, and foster connection. With
+                    each swing, slide, and spin, we invite children (and the young at heart) to dive into a world where
+                    imagination knows no bounds.
                 </p>
                 <a href="" class="uppercase" id="view-gallery-btn">View Gallery</a>
                 <a href="" class="uppercase" id="view-gallery-btn-mobile">View Gallery</a>

@@ -33,8 +33,10 @@
     </div>
     <div class="gallery-container">
 
-        <h1 class="text-4xl">Our Favourite Photos</h1>
-        <p class="text-xl mt-2">We've picked out our favorite photographs to share with you. We hope you like them</p>
+        {{-- <h1 class="text-4xl">Our Favourite Photos</h1> --}}
+        <p class="text-2xl mt-2">Here is a collection of some of our many amazing projects.</p>
+        <p class="text-xl mt-2">Yours could be next!</p>
+
 
         <div class="gallery mt-10">
             @foreach ($images as $image)
