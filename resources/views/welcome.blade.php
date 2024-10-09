@@ -22,8 +22,8 @@
                 <a href="{{ route('gallery') }}" id="hero-button1-mobile">Gallery</a>
                 <a href="{{ route('contact') }}" id="hero-button2-mobile">Contact</a>
             </div>
-            <div class="mt-10 pt-4 find-my-playlist">
-                <div style="margin-right: 3px">
+            <div class="mt-10 mb-10 pt-4 find-my-playlist">
+                <div style="margin-right: 3px;margin-">
                     <svg width="26" height="26" stroke-width="1.0" color="#EE4B2B99"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                         stroke-linecap="round" stroke-linejoin="round"
@@ -34,7 +34,7 @@
                     </svg>
                 </div>
                 <div>
-                    <p style="font-size:19px;" class="uppercase"><a href="{{ route('gallery') }}">Find my playset</a></p>
+                    <p style="font-size:19px" class="uppercase"><a href="{{ route('gallery') }}">Find my playset</a></p>
                 </div>
             </div>
         </div>
