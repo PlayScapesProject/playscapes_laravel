@@ -1,7 +1,6 @@
 @extends('frontend.main')
 
 @section('content')
-    
     <section class="landing">
         <div class="landing-image">
             <img id="landing-image" style="object-fit: cover; width: 100%;" src="{{ asset('images/playsets/image-08.jpg') }}"
@@ -25,16 +24,17 @@
             </div>
             <div class="mt-10 pt-4 find-my-playlist">
                 <div style="margin-right: 3px">
-                    <svg width="26" height="26" stroke-width="1.0" color="#4a6741" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                    <svg width="26" height="26" stroke-width="1.0" color="#EE4B2B99"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-search">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                         <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
                         <path d="M21 21l-6 -6"></path>
                     </svg>
                 </div>
                 <div>
-                    <p style="font-size:19px" class="uppercase"><a href="{{ route('gallery') }}">Find my playset</a></p>
+                    <p style="font-size:19px;" class="uppercase"><a href="{{ route('gallery') }}">Find my playset</a></p>
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@
     <div class="custom-container">
 
         <section class="steps-to-play-desktop">
-            <h2 style="font-size: 38px;color: #4a674199;" class="uppercase" id="">3 Steps to play </h2>
+            <h2 style="font-size: 38px;color: #EE4B2B99;" class="uppercase" id="">3 Steps to play </h2>
             <p style="font-size: 19px;margin-bottom:30px" class="">It's easy to get the perfect Playscapes playset for
                 your family, and you never have to
                 leave
@@ -72,7 +72,7 @@
             </div>
         </section>
         <section class="steps-to-play md:hidden">
-            <h2 style="font-size: 38px;color: #4a674180;" class="uppercase" id="">3 Steps to play</h2>
+            <h2 style="font-size: 38px;color: #EE4B2B99;" class="uppercase" id="">3 Steps to play</h2>
             <p style="font-size: 19px;margin-bottom:30px" class="">It's easy to get the perfect playset for your
                 family, and you never have to
                 leave
@@ -113,7 +113,7 @@
         <hr>
 
         <section class="playsets-section text-center mt-10 mb-10">
-            <h3 style="color: #00000090;font-size:50px;margin:40px 0px;" class="">Playscapes Playsets</h3>
+            <h3 style="color: #EE4B2B99;font-size:50px;margin:40px 0px;" class="">Playscapes Playsets</h3>
             <div class="playsets">
                 <div class="playsets-description">
                     We create <span id="redirect-link"><a href="">high-quality, safe</a></span> and
@@ -122,7 +122,8 @@
                     adventures begin!
                 </div>
                 <div class="playsets-image">
-                    <img style="height: 150px" id="playsets-img" src="{{ asset('images/loko-nobg.png') }}" alt="" srcset="">
+                    <img style="height: 150px" id="playsets-img" src="{{ asset('images/loko-nobg.png') }}"
+                        alt="" srcset="">
 
                 </div>
             </div>
@@ -169,7 +170,7 @@
                 </div>
                 <div class="premium-image">
 
-                    <img style="height: 500px" src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.40 AM.jpeg') }}"
+                    <img style="height: 500px" src="{{ asset('images/playsets/image-24.jpg') }}"
                         alt="" srcset="">
 
                 </div>
@@ -188,13 +189,9 @@
                         <h3 style="color: #EE4B2B;font-size:38px;margin-top:40px;" class="uppercase">easy to buy</h3>
                         <h2 style="font-size:19px;">No worries. No stress. The modern way to buy a playset.</h2>
                         <ul style="list-style-type: disc;margin-left:20px;font-size:19px;">
-                            <li>Buy from home — online or by phone</li>
-                            <li>
-                                Customize and get exactly what you want
-                            </li>
-                            <li>
-                                Delivery and assembly from coast to coast
-                            </li>
+                            <li>Choose a playset design</li>
+                            <li>Order online or by phone</li>
+                            <li>We deliver to your destination</li>
                         </ul>
                     </div>
                     <a style="font-size: 19px;" href="#"> <span id="premium-link">Learn more about how easy it is
@@ -232,7 +229,7 @@
         </section>
 
         <section class="premium-products-mobile mt-10 mb-10">
-            <h3 style="font-size:32px;margin-top:40px;margin-bottom:40px" class="">Why Playscapes KE?</h3>
+            <h3 style="font-size:32px" class="">Why Playscapes KE?</h3>
             <div class="carousel-premium">
                 <div class="carousel-slide-premium premium-mobile">
                     <div class="premium-description-mobile mt-1 space-y-3">
@@ -264,9 +261,9 @@
                         <h3 style="color: #EE4B2B;font-size:28px" class="uppercase">easy to buy</h3>
                         <h2 style="font-size: 19px">No worries. No stress. The modern way to buy a playset.</h2>
                         <ul style="list-style-type: disc;font-size:19px">
-                            <li>Naturally splinter-free Northern White Cedar</li>
-                            <li>Unwavering attention to detail</li>
-                            <li>The most beautiful playsets you can buy</li>
+                            <li>Choose a playset design</li>
+                            <li>Order online or by phone</li>
+                            <li>We deliver to your destination</li>
                         </ul>
                     </div>
                 </div>
@@ -298,12 +295,13 @@
     </div>
 
     <section class="who-we-are">
-        <p style="font-size:32px;margin-bottom:40px" class="">
+        <p style="font-size:32px;margin-bottom:40px;color:#EE4B2B99" class="">
             Who We Are
 
         </p>
         <div class="who-we-are-img">
-            <img style="width: 50%;margin-left:auto;margin-right:auto" src="{{ asset('images/loko-nobg.png') }}" alt="" srcset="">
+            <img style="width: 50%;margin-left:auto;margin-right:auto" src="{{ asset('images/loko-nobg.png') }}"
+                alt="" srcset="">
         </div>
         <div>
             <p style="font-size:19px;margin-top:30px;margin-bottom:30px" class="">

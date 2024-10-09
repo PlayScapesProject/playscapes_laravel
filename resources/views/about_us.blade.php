@@ -36,7 +36,7 @@
         <section class="hero-about-us">
 
             <div class="hero-about-us-img">
-                <img src="{{ asset('images/heross.png') }}" alt="Playing Children">
+                <img src="{{ asset('images/playsets/image-08.jpg') }}" alt="Playing Children">
             </div>
             <div class="hero-description-about-us">
                 <h1 style="font-size: 50px; margin-bottom:15px" class="">Who we are</h1>
@@ -61,18 +61,18 @@
                     possibilities, we help you build lasting memories right in your backyard. Choose us to bring
                     imagination, safety, and joy to every playtime!
                 </p>
-                <a href="" class="uppercase" id="view-gallery-btn">View Gallery</a>
+                <a href="{{ route('gallery') }}" class="uppercase" id="view-gallery-btn">View Gallery</a>
             </div>
             <div class="about-what-we-sell-image">
                 <img src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.40 AM (1).jpeg') }}" alt=""
                     srcset="">
-                <a href="" class="uppercase" id="view-gallery-btn-mobile">View Gallery</a>
+                <a href="{{ route('gallery') }}" class="uppercase" id="view-gallery-btn-mobile">View Gallery</a>
             </div>
         </section>
         <hr class="mt-10 mb-10">
         <section class="about-what-we-sell">
             <div class="about-what-we-sell-image">
-                <img src="{{ asset('images/WhatsApp Image 2024-08-19 at 10.18.29 AM.jpeg') }}" alt=""
+                <img src="{{ asset('images/playsets/image-23.jpg') }}" alt=""
                     srcset="">
             </div>
             <div class="about-what-we-sell-description">
@@ -83,8 +83,8 @@
                     each swing, slide, and spin, we invite children (and the young at heart) to dive into a world where
                     imagination knows no bounds.
                 </p>
-                <a href="" class="uppercase" id="view-gallery-btn">View Gallery</a>
-                <a href="" class="uppercase" id="view-gallery-btn-mobile">View Gallery</a>
+                <a href="{{ route('gallery') }}" class="uppercase" id="view-gallery-btn">View Gallery</a>
+                <a href="{{ route('gallery') }}" class="uppercase" id="view-gallery-btn-mobile">View Gallery</a>
 
             </div>
 

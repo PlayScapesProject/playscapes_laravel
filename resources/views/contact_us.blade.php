@@ -33,7 +33,7 @@
     </div>
     <div style="font-size: 19px" class="contact-us-container">
         <div class="contact-us-form">
-            <p style="color: #4a6741;margin-bottom:30px" class="text-4xl">Contact Us</p>
+            <p style="color: #EE4B2B90;margin-bottom:30px" class="text-4xl">Contact Us</p>
             <form action="">
                 <div class="input-field">
                     <label for="first_name">First Name</label> <br>
@@ -65,7 +65,7 @@
             </form>
         </div>
         <div class="contact-us-description">
-            <p style="color: #4a6741;margin-bottom:30px" class="text-4xl">Phone / Email</p>
+            <p style="color: #EE4B2B90;margin-bottom:30px" class="text-4xl">Phone / Email</p>
             <div class="contact-email-phone">
                 <p>
                     ( 245 ) 7244 77 77 1
